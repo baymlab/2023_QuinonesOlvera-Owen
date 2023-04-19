@@ -1,0 +1,157 @@
+LOCUS       Exported                4163 bp ds-DNA     linear   PHG 20-JAN-2023
+DEFINITION  natural linear DNA
+ACCESSION   XXXXXXXX
+VERSION     .
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+REFERENCE   1  (bases 1 to 4163)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Friday, Jan 20, 2023 from SnapGene 5.1.7
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..4163
+                     /organism="unspecified"
+                     /mol_type="genomic DNA"
+     source          131..3670
+                     /organism="Escherichia phage Qbeta"
+                     /mol_type="genomic RNA"
+                     /label=lacks nucleotides at the 5' and 3' ends
+                     /note="lacks nucleotides at the 5' and 3' ends"
+                     /db_xref="taxon:2789016"
+     gap             1..130
+                     /estimated_length=130
+     CDS             21..1283
+                     /codon_start=2
+                     /transl_table=11
+                     /product="A2 maturation protein"
+                     /label=A2 maturation protein
+                     /protein_id="AAM33125.1"
+                     /translation="?????????????????????????????????????WYTLKGRV
+                     LNAHLDDRLPNVSGRQVRRTPHRVTVPIASSGLRPVTTVQYDPTALSFLLNARVDWDFG
+                     NGDSANLVINDFLFRTFAPKEFDFSNSLVPRYNQAFSAFNAKYGTMIGEGLETIKYLGL
+                     LLRRLREGYRAVKRGDLRALRRVIQTYHKGKWKPTTAGNLWLEFRYGLMPLFYDIRDVM
+                     LDWQKRHDKIQRLLRFSVGHGEDYVVEFDNLYPAVTYFKLKGEITLERRHRHGISYANR
+                     EGYAVFDNGSLRPVSDWKELATAFINPHEVAWELTPYSFVVDWFLNVGDILAQQGQLYH
+                     NIDIVDGYDRRDIRLKSFTIKGERNGRPVNVSADLSAVDTFYSRLHTSKLPFATLDLDT
+                     TFSSYKHVLDSIFLLTQRIKR"
+     CDS             join(1304..1702,1706..2296)
+                     /codon_start=1
+                     /transl_table=11
+                     /transl_except="(pos: 1703 .. 1705,  aa: Trp)"
+                     /product="A1 read-through protein"
+                     /label=A1 read-through protein
+                     /note="similar to the sequence deposited inGenBankAccession
+                     Number M99039"
+                     /protein_id="AAM33127.1"
+                     /translation="MAKLETVTLSNIGKDGKQNLVLNPRGVNPTNGVAALSQAGAVPAL
+                     EKRVTISVSQPSRNRKNYKVQVKIQNPTACAANGSCDPSVTRQAYADVTFSFTQYSTDE
+                     ERAFVRTELAALLASPLLIDAIDQLNPAYTLLIAGGGSGSNPDPVITPDPPIDPPPGTG
+                     KYTCPFAIWSLEEVYEPPTKNRPWPIYNAVELQPRKFDVALKDLLGNTKWRDWDSRLSY
+                     TTFRGCRGNGYIDLDATYLATDQAMRDQKYDIREGKKPGAFGNIERFIYLKSINAYCSL
+                     SDIAAYHADGVIVGFWRDPSSGGAIPFDFTKFDKTKCPIQAVIVVPRA"
+     CDS             1304..1705
+                     /codon_start=1
+                     /transl_table=11
+                     /product="coat protein"
+                     /label=coat protein
+                     /note="similar to the sequence deposited inGenBankAccession
+                     Number M99039"
+                     /protein_id="AAM33126.1"
+                     /translation="MAKLETVTLSNIGKDGKQNLVLNPRGVNPTNGVAALSQAGAVPAL
+                     EKRVTISVSQPSRNRKNYKVQVKIQNPTACAANGSCDPSVTRQAYADVTFSFTQYSTDE
+                     ERAFVRTELAALLASPLLIDAIDQLNPAY"
+     CDS             2315..4084
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Q beta replicase"
+                     /label=Q beta replicase
+                     /note="RNA-dependant RNA replicase; similar to thesequence 
+                     deposited in GenBank Accession Number X14764"
+                     /protein_id="AAM33128.1"
+                     /translation="MSKTASSHNSPSAQLRRAANTRIEVEGNLALSIANDLLLAYGQSP
+                     FSSEAECISFSPRFDGTPDDFRINYLKAEIMSKYGDFSLGIDTEAAAWEKFLAAEAECA
+                     LTNARLYRPDYSEDFNFSLGESCIHMARRKIAKLIGDAPSIEGMLRHCRFSGGATTTNN
+                     RSYGHPSFKFALPQACTPRALKYVLALRASTHFDIRVSDISPFNKAVTVPKNSKTDRCI
+                     AIEPGWNMFFQLGVGGILRDRLRCWGIDLNDQTINQRRAHEGSVTNNLATVDLSAASDS
+                     ISLALCELLLPPGWFEVLMDLRSPKGRLPDGSVVTYEKISSMGNGYTFELESLIFASLA
+                     RSVCEILDLDSSEVTVYGDDIILPSCAVPALQEVFKYVGFTTNTKKTFSEGPFRESCGK
+                     HYYSGVDVTPFYIRHRIVSPADLILVLNNLYRWATIDGVWDPRAYSVYLKYRK??????
+                     ???????????????????????????????????????????????????????????
+                     ???????????????????????????????????????????????????????????
+                     ??????????????"
+     gap             3671..4163
+                     /estimated_length=493
+ORIGIN
+        1 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+       61 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      121 nnnnnnnnnn gtggtacaca ctgaaaggcc gtgtgttgaa tgcccatctt gatgatcgct
+      181 tacctaatgt aagcggtcgc caggttaggc gaactccaca tcgtgttact gttccgattg
+      241 cctcttcagg ccttcgtcca gtaacaaccg ttcagtatga tcccacagca ctatcgttct
+      301 tattgaacgc tcgtgttgat tgggatttcg gtaatggcga cagtgcgaac cttgtcatta
+      361 atgacttttt gtttcgcacc ttcgcgccta aggagttcga tttctcgaat tccttagttc
+      421 ctcgttataa ccaggccttc tccgctttta atgccaaata tggcactatg atcggtgaag
+      481 ggctcgagac tataaaatat ctcgggcttt tactgcgcag actgcgtgag ggttaccgcg
+      541 ctgtgaagcg tggcgattta cgtgctcttc gcagggttat ccagacttac cataaaggta
+      601 aatggaaacc gactactgct ggtaatctct ggctcgaatt tcgttatggc cttatgccgc
+      661 tcttctatga catcagagat gtcatgttag actggcagaa acgtcatgat aagattcaac
+      721 gcctcctccg gttttcagtt ggtcacggcg aggactatgt tgtcgaattt gacaacttat
+      781 atcctgctgt tacctacttt aaactgaaag gtgagattac actcgaacgc cgtcatcgtc
+      841 acggcatatc ttacgctaat cgcgaaggat atgctgtttt cgataacggt tcccttcggc
+      901 ctgtgtccga ttggaaggaa cttgccaccg cattcatcaa tccgcacgag gttgcatggg
+      961 agttaactcc ctacagtttc gttgtcgatt ggttcttgaa tgtcggtgac atacttgctc
+     1021 agcaaggtca gctatatcat aatatcgata ttgtagacgg ttacgacaga cgtgacattc
+     1081 gcctcaaatc tttcactata aaaggtgaac gaaatgggcg acctgtcaac gtttctgccg
+     1141 acctatctgc tgtcgataca ttttatagtc gacttcatac tagcaagctt ccgttcgcta
+     1201 cactcgatct cgatactacc ttcagttcgt ataaacacgt tcttgatagt atctttctat
+     1261 taacccaacg cattaagcgt tgaaactttg ggtcaatttg atcatggcaa aattagagac
+     1321 tgttacttta agtaacatcg ggaaagatgg aaaacaaaat ctggtcctca atccgcgtgg
+     1381 ggtaaatccc actaacggtg ttgccgcgct ttcacaagcg ggtgcagttc ctgcgctgga
+     1441 gaagcgtgtt accatttcgg tatctcagcc ttctcgcaac cgtaagaact acaaagtcca
+     1501 ggttaagatc cagaacccga ccgcttgcgc tgcaaacggt tcttgtgacc catccgttac
+     1561 tcgccaggcg tatgctgacg tgaccttttc gttcacgcag tatagtaccg atgaggaacg
+     1621 agctttcgtt cgtacagagc ttgctgctct gctcgctagt cctctgttga tcgatgctat
+     1681 cgatcagttg aatccagcgt attgaacgtt gctcattgcc ggtggtggct cagggtccaa
+     1741 ccccgatccg gttatcactc cggatccacc gattgatccg ccgccaggga caggtaagta
+     1801 tacctgtcct ttcgcaattt ggtccttaga agaggtttac gagcctccta ctaagaaccg
+     1861 accgtggcct atctataatg ctgttgaact ccagcctcgc aaatttgatg ttgcccttaa
+     1921 agatcttttg ggcaatacaa aatggcgcga ctgggattct cggcttagtt ataccacgtt
+     1981 ccgcggttgc cgtggcaacg gttacattga ccttgacgcg acttatcttg ctactgatca
+     2041 ggctatgcgt gatcagaagt acgatattcg cgagggcaag aaacctggtg ctttcggtaa
+     2101 cattgagcga ttcatttatc ttaagtcgat aaatgcttat tgctctctta gcgatattgc
+     2161 ggcctatcac gccgatggtg tgatagttgg cttttggcgc gatccatcta gtggtggtgc
+     2221 cataccgttt gacttcacta agtttgataa gactaaatgt cctattcaag ccgtgatagt
+     2281 cgttcctcgt gcttagtaac taaggatgaa atgcatgtct aagacagcat cttcgcataa
+     2341 ctctcctagc gcacaattgc gccgagctgc gaacacaaga attgaggtag aaggtaacct
+     2401 cgcactttcc attgccaacg atctattgtt ggcttatggt caatcgccat ttagctccga
+     2461 agccgagtgt atttcattca gcccgagatt cgacgggacc ccggatgact ttaggataaa
+     2521 ttatcttaaa gccgagatca tgtcgaagta tggcgatttc agcctaggta ttgataccga
+     2581 agctgctgcc tgggaaaagt tcctggcagc agaggctgaa tgtgctttaa cgaacgctcg
+     2641 cctctataga cctgactaca gtgaggattt caatttctca ctgggtgagt catgtatcca
+     2701 catggctcgc agaaaaatag ccaagttaat aggagacgcg ccgtccattg agggtatgtt
+     2761 gcgtcactgc cgattttctg gcggtgccac aacaacgaat aaccgttcgt acggtcatcc
+     2821 gtccttcaag tttgcgcttc cacaagcgtg tacgcctcgg gctttgaagt atgttttggc
+     2881 tcttagagct tctacacact tcgatatcag agtttctgat attagccctt ttaataaagc
+     2941 agttactgta cctaagaaca gtaagactga tcgttgtatt gctatcgagc ccggttggaa
+     3001 tatgtttttt caactaggcg ttggtggcat tttacgcgac cggttgcgtt gctggggtat
+     3061 cgatctgaat gatcagacga taaatcagcg tcgcgctcac gaaggctctg tcactaataa
+     3121 cttagcgacg gttgatctct cagcggcaag cgattctata tctcttgctc tctgtgagct
+     3181 cttattgccc ccaggttggt ttgaagtcct tatggacctc agatcaccga aagggcggtt
+     3241 gcctgacggt agtgttgtta cctacgagaa aatatcctct atgggtaacg gatacacatt
+     3301 cgagcttgag tcgcttattt ttgcttctct tgcccgttcc gtttgtgaga tactggactt
+     3361 agactcgtct gaggttactg tttacggaga cgatattatt ttaccgtcct gtgcagtacc
+     3421 tgcccttcag gaagttttta agtatgttgg ttttaccacc aatactaaaa agactttctc
+     3481 cgaggggccg ttcagagagt cgtgcggtaa gcactactat tctggcgtag atgttactcc
+     3541 cttttacata cgtcaccgta tagtgagccc tgccgatttg atattggttt tgaataacct
+     3601 atatcggtgg gccacaattg atggcgtatg ggatcctagg gcctattccg tttacctcaa
+     3661 gtatcgtaag nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3721 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3781 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3841 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3901 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3961 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     4021 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     4081 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     4141 nnnnnnnnnn nnnnnnnnnn nnn
+//

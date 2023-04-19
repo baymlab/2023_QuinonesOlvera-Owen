@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LNFM01013825.1_orf7  -          IX.2                 -              4e-60  195.8   0.0   4.6e-60  195.5   0.0   1.0   1   0   0   1   1   1   1 -
+LNFM01009513.1_orf16 -          IX.2                 -            1.9e-32  105.4   0.0   2.5e-32  105.1   0.0   1.1   1   0   0   1   1   1   1 -
+JRYJ01001167.1_orf13 -          IX.2                 -            5.6e-29   94.1   0.0   6.7e-29   93.8   0.0   1.1   1   0   0   1   1   1   1 -
+FRDC01003407.1_orf18 -          IX.2                 -            3.2e-25   81.8   0.0   4.5e-25   81.4   0.0   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../data/models/hmm/IX.2.hmm
+# Target file:     ../data/tecti_genomes/Yutin/hmmer/all_yutin_orfs.faa
+# Option settings: hmmsearch --tblout ../data/tecti_genomes/Yutin/hmmer/p9.tbl ../data/models/hmm/IX.2.hmm ../data/tecti_genomes/Yutin/hmmer/all_yutin_orfs.faa 
+# Current dir:     /n/data1/hms/dbmi/baym/nquinones/2022_QuinonesOlvera-Owen/figures/Fig3/notebooks
+# Date:            Tue Feb  7 18:35:20 2023
+# [ok]

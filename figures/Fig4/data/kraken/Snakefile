@@ -1,0 +1,123 @@
+# ╭───────────────────────────────────────────────────────────────────────────╮
+#   METAGENOMIC SEARCHES FOR PRD1-LIKE PHAGES IN WASTEWATER
+#
+#   author: Natalia Quinones-Olvera
+#   email: nquinones@g.harvard.edu
+# ╰───────────────────────────────────────────────────────────────────────────╯
+
+import pandas as pd
+import os
+
+# -----------------------------------------------------------------------------
+# setup
+# -----------------------------------------------------------------------------
+
+# main directories
+BAYM_DIR = 'data/'
+SCRATCH_DIR = '/n/scratch3/users/n/nq10/wastewater/'
+
+def main_dir(child):
+    return os.path.join(BAYM_DIR, child)
+
+def scra_dir(child):
+    return os.path.join(SCRATCH_DIR, child)
+
+# samples to run
+df = pd.read_table(main_dir('wastewater_metadata.tsv'),
+                   sep='\t')
+
+samples = df[df['snakemake']]['run_acc']
+
+
+# -----------------------------------------------------------------------------
+# RULE ALL
+# -----------------------------------------------------------------------------
+rule all:
+    input:
+        expand(main_dir('kraken_results/fastq/{sample}_1.alphatecti.fastq'), sample=samples),
+        expand(main_dir('kraken_results/fastq/{sample}_2.alphatecti.fastq'), sample=samples),
+        expand(main_dir('kraken_results/summary/{sample}.summary.tsv'), sample=samples)
+
+# -----------------------------------------------------------------------------
+# sra_download:
+# download read files from SRA, given run accession from dataframe
+# -----------------------------------------------------------------------------
+rule sra_download:
+    output:
+        # original reads files from SRA
+        r1 = scra_dir('reads/{sample}_1.fastq'),
+        r2 = scra_dir('reads/{sample}_2.fastq')
+        
+    params:
+       # output dir: scratch3
+        outdir = scra_dir('reads')
+    conda:
+        'envs/sratools.yml'
+    shell:
+        'fasterq-dump '\
+            '-t {params.outdir} '\
+            '-O {params.outdir} '\
+            '{wildcards.sample}'
+
+
+# -----------------------------------------------------------------------------
+# kraken_viral:
+# run kraken with viral/tecti database 
+# -----------------------------------------------------------------------------
+rule kraken_viral:
+    input:
+        r1 = scra_dir('reads/{sample}_1.fastq'),
+        r2 = scra_dir('reads/{sample}_2.fastq')
+        
+    output:
+        kraken_results = main_dir('kraken_results/{sample}.kraken'),
+        kraken_report = main_dir('kraken_results/{sample}.report')
+        
+    params:
+        db = main_dir('kraken_db/ww_viral')
+        
+    conda:
+        'envs/kraken2.yml'
+        
+    shell:
+        'kraken2 '\
+            '--paired '\
+            '--report {output.kraken_report} '\
+            '--db {params.db} '\
+            '{input.r1} '\
+            '{input.r2} '\
+            '> {output.kraken_results}'
+
+
+# -----------------------------------------------------------------------------
+# extract_reads:
+# extract reads matching alphatectivirus by kraken
+# -----------------------------------------------------------------------------
+rule extract_reads:
+    input:
+        r1 = scra_dir('reads/{sample}_1.fastq'),
+        r2 = scra_dir('reads/{sample}_2.fastq'),
+        kraken_results = main_dir('kraken_results/{sample}.kraken')
+        
+    output:
+        r1_extract = main_dir('kraken_results/fastq/{sample}_1.alphatecti.fastq'),
+        r2_extract = main_dir('kraken_results/fastq/{sample}_2.alphatecti.fastq'),
+        summary = main_dir('kraken_results/summary/{sample}.summary.tsv')
+        
+    params:
+        taxids = main_dir('taxids.tsv')
+    
+    conda:
+        'envs/mykrakentools.yml'
+    
+    shell:
+        'python scripts/get_kraken_reads.py '\
+            '-1 {input.r1} '\
+            '-2 {input.r2} '\
+            '-o1 {output.r1_extract} '\
+            '-o2 {output.r2_extract} '\
+            '-t {params.taxids} '\
+            '-s {output.summary} '\
+            '{input.kraken_results}'
+
+

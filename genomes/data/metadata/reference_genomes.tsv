@@ -1,0 +1,6 @@
+reference	size	chrom_type	assembly_type	nucl_type	orient_prot	acc
+PRD1	14927	linear	linear	dsDNA	PRD1_P8	NC_001421.2
+MS2	3569	linear	linear	ssRNA	MS2_Mat	V00642.1
+Qbeta	4215	linear	linear	ssRNA	Qbeta_Mat	AY099114.1
+M13	6407	circular	circular	ssDNA	M13_P2	V00604.2
+FtMidnight	40995	linear	circular	dsDNA	FtMidnight_Term	-

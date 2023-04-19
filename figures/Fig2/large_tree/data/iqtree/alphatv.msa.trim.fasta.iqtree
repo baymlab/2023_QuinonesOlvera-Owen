@@ -1,0 +1,402 @@
+IQ-TREE 2.2.0.3 COVID-edition built Aug  2 2022
+
+Input file name: data/alphatv.msa.trim.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 971809
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 58 sequences with 14888 nucleotide sites
+Number of constant sites: 10299 (= 69.1765% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 10299 (= 69.1765% of all sites)
+Number of parsimony informative sites: 3525
+Number of distinct site patterns: 3461
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+I+I+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+I+I+R4   -121314.086  242880.172 +    0.353  242882.340 +    0.363  243838.819 +    0.976
+SYM+I+I+R4      -121322.765  242895.529 - 0.000163  242897.663 - 0.000171  243846.568 -   0.0203
+TIM2e+I+I+R4    -121334.150  242914.301 - 1.37e-08  242916.367 - 1.48e-08  243850.123 -  0.00343
+GTR+F+I+I+R4    -121311.791  242879.582 +    0.474  242881.819 +    0.471  243853.445 - 0.000651
+TVMe+I+I+R4     -121333.139  242914.278 - 1.38e-08  242916.378 - 1.47e-08  243857.709 - 7.72e-05
+TPM2+I+I+R4     -121344.996  242933.992 - 7.25e-13  242936.025 - 7.98e-13  243862.206 - 8.14e-06
+GTR+F+I+I+R5    -121310.797  242881.595 +    0.173  242883.903 +    0.166  243870.675 - 1.18e-07
+TN+F+I+I+R4     -121341.722  242933.445 - 9.54e-13  242935.579 - 9.98e-13  243884.484 - 1.18e-10
+TIM+F+I+I+R4    -121339.034  242930.068 - 5.16e-12  242932.236 - 5.31e-12  243888.715 - 1.43e-11
+TIM3+F+I+I+R4   -121341.696  242935.392 -  3.6e-13  242937.561 - 3.71e-13  243894.040 - 9.96e-13
+TIM3e+I+I+R4    -121360.296  242966.591 - 6.05e-20  242968.657 - 6.55e-20  243902.413 - 1.51e-14
+TNe+I+I+R4      -121369.273  242982.546 - 2.08e-23  242984.579 - 2.28e-23  243910.760 - 2.33e-16
+TPM3+I+I+R4     -121370.089  242984.179 - 9.18e-24  242986.211 - 1.01e-23  243912.393 - 1.03e-16
+TIMe+I+I+R4     -121366.854  242979.708 - 8.58e-23  242981.774 - 9.29e-23  243915.530 - 2.15e-17
+K2P+I+I+R4      -121379.628  243001.256 -  1.8e-27  243003.255 - 2.01e-27  243921.861 - 9.06e-19
+TPM2u+F+I+I+R4  -121362.016  242974.032 - 1.47e-21  242976.165 - 1.53e-21  243925.070 - 1.82e-19
+K3P+I+I+R4      -121377.205  242998.411 - 7.45e-27  243000.444 -  8.2e-27  243926.625 - 8.37e-20
+TVM+F+I+I+R4    -121359.182  242972.363 - 3.38e-21  242974.566 - 3.41e-21  243938.619 - 2.08e-22
+HKY+F+I+I+R4    -121388.861  243025.722 - 8.74e-33  243027.822 - 9.31e-33  243969.153 - 4.87e-29
+K3Pu+F+I+I+R4   -121386.181  243022.362 - 4.69e-32  243024.496 - 4.91e-32  243973.401 - 5.82e-30
+TPM3u+F+I+I+R4  -121388.577  243027.154 - 4.27e-33  243029.288 - 4.47e-33  243978.193 -  5.3e-31
+GTR+F+R3        -121418.484  243086.968 - 4.39e-46  243089.101 - 4.59e-46  244038.006 - 5.45e-44
+GTR+F+I+I+R3    -121422.784  243097.567 - 2.19e-48  243099.735 - 2.25e-48  244056.214 - 6.06e-48
+GTR+F+R4        -121418.497  243090.994 - 5.86e-47  243093.197 - 5.93e-47  244057.249 - 3.61e-48
+GTR+F+I+I+R2    -121656.804  243561.609 - 3.76e-149  243563.708 -   4e-149  244505.039 - 2.1e-145
+GTR+F+I+G4      -121796.815  243839.630 - 1.6e-209  243841.696 - 1.73e-209  244775.452 -   4e-204
+JC+I+I+R4       -122911.711  246063.423 -        0  246065.389 -        0  246976.420 -        0
+F81+F+I+I+R4    -122924.283  246094.565 -        0  246096.631 -        0  247030.387 -        0
+GTR+F+G4        -123675.048  247594.095 -        0  247596.128 -        0  248522.309 -        0
+GTR+F+R2        -123992.094  248230.188 -        0  248232.254 -        0  249166.010 -        0
+GTR+F+I         -125711.064  251666.128 -        0  251668.161 -        0  252594.342 -        0
+GTR+F           -141250.199  282742.398 -        0  282744.398 -        0  283663.004 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+I+I+R4
+
+Rate parameter R:
+
+  A-C: 1.1934
+  A-G: 2.3141
+  A-T: 1.1934
+  C-G: 1.0000
+  C-T: 3.0308
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2645
+  pi(C) = 0.2241
+  pi(G) = 0.2582
+  pi(T) = 0.2532
+
+Rate matrix Q:
+
+  A   -0.9663    0.2215    0.4947    0.2502
+  C    0.2613     -1.11    0.2138    0.6354
+  G    0.5067    0.1856   -0.9019    0.2096
+  T    0.2613    0.5624    0.2138    -1.037
+
+Model of rate heterogeneity: Invar+Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.4837
+Site proportion and rates:  (0.2529,0.1407) (0.1957,1.834) (0.04592,6.327) (0.02173,14.5)
+
+ Category  Relative_rate  Proportion
+  0         0              0.4837
+  1         0.1407         0.2529
+  2         1.834          0.1957
+  3         6.327          0.04592
+  4         14.5           0.02173
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -120773.2804 (s.e. 1559.6819)
+Unconstrained log-likelihood (without tree): -62043.9739
+Number of free parameters (#branches + #model parameters): 126
+Akaike information criterion (AIC) score: 241798.5609
+Corrected Akaike information criterion (AICc) score: 241800.7290
+Bayesian information criterion (BIC) score: 242757.2080
+
+Total tree length (sum of branch lengths): 1.7633
+Sum of internal branch lengths: 0.5727 (32.4809% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'PRDturquoise' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--PRDturquoise
+|
+|     +--PRDsage
+|  +--| (94.7/87)
+|  |  |              +--PRDmustard
+|  |  |           +--| (98.6/67)
+|  |  |           |  |           +--PRDrose
+|  |  |           |  |        +--| (99.9/96)
+|  |  |           |  |        |  +----------------------PRDamber
+|  |  |           |  |     +--| (100/100)
+|  |  |           |  |     |  |                        +--PRDaquamarine
+|  |  |           |  |     |  |          +-------------| (100/100)
+|  |  |           |  |     |  |          |             |    +--PRDasparagus
+|  |  |           |  |     |  |          |             +----| (100/100)
+|  |  |           |  |     |  |          |                  |       +--PRDpistachio
+|  |  |           |  |     |  |          |                  +-------| (100/100)
+|  |  |           |  |     |  |          |                          +--------PRDobsidian
+|  |  |           |  |     |  |      +---| (100/100)
+|  |  |           |  |     |  |      |   |  +--PRDwine
+|  |  |           |  |     |  |      |   +--| (92.9/96)
+|  |  |           |  |     |  |      |      |     +-----------------PRDcanary
+|  |  |           |  |     |  |      |      +-----| (100/99)
+|  |  |           |  |     |  |      |            +----PRDsepia
+|  |  |           |  |     |  |  +---| (100/100)
+|  |  |           |  |     |  |  |   +--PRDfuchsia
+|  |  |           |  |     |  +--| (100/100)
+|  |  |           |  |     |     +--PRDavocado
+|  |  |           |  |  +--| (94.1/94)
+|  |  |           |  |  |  +--PRDruby
+|  |  |           |  +--| (97.6/74)
+|  |  |           |     +--PRDpine
+|  |  |        +--| (97.4/69)
+|  |  |        |  |           +--PRDvermilion
+|  |  |        |  |        +--| (97.9/37)
+|  |  |        |  |        |  |                 +-----------PRDpeacock
+|  |  |        |  |        |  |              +--| (100/100)
+|  |  |        |  |        |  |              |  +--PRDcobalt
+|  |  |        |  |        |  |           +--| (95.4/98)
+|  |  |        |  |        |  |           |  +--PRDsky
+|  |  |        |  |        |  |        +--| (100/100)
+|  |  |        |  |        |  |        |  +--PRDgold
+|  |  |        |  |        |  |     +--| (99/81)
+|  |  |        |  |        |  |     |  +---PRDforest
+|  |  |        |  |        |  |  +--| (42.2/47)
+|  |  |        |  |        |  |  |  +--PRDhazel
+|  |  |        |  |        |  +--| (100/96)
+|  |  |        |  |        |     +--PRDcherry
+|  |  |        |  |     +--| (100/56)
+|  |  |        |  |     |  |  +--PRDmamacita
+|  |  |        |  |     |  +--| (96.9/42)
+|  |  |        |  |     |     +--BCE1
+|  |  |        |  |  +--| (20.1/16)
+|  |  |        |  |  |  |     +--PRDskutterchuck
+|  |  |        |  |  |  |  +--| (99.6/100)
+|  |  |        |  |  |  |  |  +--PRDgraphite
+|  |  |        |  |  |  +--| (99.8/77)
+|  |  |        |  |  |     +--PRDazure
+|  |  |        |  +--| (95.9/69)
+|  |  |        |     |  +--PRDaubergine
+|  |  |        |     +--| (97.2/58)
+|  |  |        |        |  +---PRDcerulean
+|  |  |        |        +--| (95/62)
+|  |  |        |           |     +--PRDplum
+|  |  |        |           |  +--| (100/75)
+|  |  |        |           |  |  +--PRDchartreuse
+|  |  |        |           +--| (97.7/62)
+|  |  |        |              +--PRDteal
+|  |  |     +--| (100/49)
+|  |  |     |  +------PRDolive
+|  |  |  +--| (98.3/69)
+|  |  |  |  +--PRDbigpapi
+|  |  +--| (99.6/98)
+|  |     |          +------PRDindigo
+|  |     |  +-------| (100/100)
+|  |     |  |       +---PR4
+|  |     +--| (100/73)
+|  |        +------PRDmagenta
++--| (100/100)
+|  |  +--PRDcochinilla
+|  +--| (86.7/89)
+|     |        +--PRDnavy
+|     |     +--| (97.6/99)
+|     |     |  |  +--PRDcarrot
+|     |     |  +--| (99.8/94)
+|     |     |     |        +--PRDbrick
+|     |     |     |     +--| (99.9/98)
+|     |     |     |     |  |  +--PRDmaroon
+|     |     |     |     |  +--| (96.7/94)
+|     |     |     |     |     +--PRDshaddybee
+|     |     |     |  +--| (17/45)
+|     |     |     |  |  |     +--PRDjuniper
+|     |     |     |  |  |  +--| (100/99)
+|     |     |     |  |  |  |  |  +---PRDmint
+|     |     |     |  |  |  |  +--| (99.4/91)
+|     |     |     |  |  |  |     |      +--L17
+|     |     |     |  |  |  |     |  +---| (100/100)
+|     |     |     |  |  |  |     |  |   +--PR3
+|     |     |     |  |  |  |     +--| (28.1/90)
+|     |     |     |  |  |  |        +--PR772
+|     |     |     |  |  +--| (98.1/85)
+|     |     |     |  |     +--PRDjet
+|     |     |     +--| (92/83)
+|     |     |        |  +--PR5
+|     |     |        +--| (61.8/76)
+|     |     |           +--PRD1
+|     |  +--| (99.7/91)
+|     |  |  |  +---PRDscarlet
+|     |  |  +--| (100/100)
+|     |  |     +--PRDcrimson
+|     +--| (83.9/84)
+|        |  +--PRDroyal
+|        +--| (99.9/97)
+|           +--PRDemerald
+|
++--PRDmahogany
+
+Tree in newick format:
+
+(PRDturquoise:0.0041704185,((PRDsage:0.0138703530,(((((PRDmustard:0.0143790969,((((PRDrose:0.0210661846,PRDamber:0.1425336577)99.9/96:0.0129611738,((((PRDaquamarine:0.0012800827,(PRDasparagus:0.0041633009,(PRDpistachio:0.0078336389,PRDobsidian:0.0564583170)100/100:0.0485274984)100/100:0.0341395238)100/100:0.0897065703,(PRDwine:0.0118577131,(PRDcanary:0.1102208498,PRDsepia:0.0342495797)100/99:0.0371752995)92.9/96:0.0037736773)100/100:0.0290489176,PRDfuchsia:0.0139899161)100/100:0.0274903415,PRDavocado:0.0170579849)100/100:0.0219358617)100/100:0.0186303476,PRDruby:0.0131822008)94.1/94:0.0018763699,PRDpine:0.0137001619)97.6/74:0.0025547865)98.6/67:0.0031273812,((((PRDvermilion:0.0165173703,((((((PRDpeacock:0.0767136828,PRDcobalt:0.0098096403)100/100:0.0126640048,PRDsky:0.0066295182)95.4/98:0.0043098168,PRDgold:0.0072628184)100/100:0.0238936943,PRDforest:0.0244371619)99/81:0.0050468979,PRDhazel:0.0189265659)42.2/47:0.0053770190,PRDcherry:0.0193386724)100/96:0.0061168278)97.9/37:0.0027641639,(PRDmamacita:0.0110542810,BCE1:0.0140648525)96.9/42:0.0020200863)100/56:0.0030358951,((PRDskutterchuck:0.0060608132,PRDgraphite:0.0114994741)99.6/100:0.0036831873,PRDazure:0.0178170697)99.8/77:0.0034580880)20.1/16:0.0012660403,(PRDaubergine:0.0160368361,(PRDcerulean:0.0258369616,((PRDplum:0.0158021480,PRDchartreuse:0.0204928210)100/75:0.0049529343,PRDteal:0.0081468365)97.7/62:0.0019594177)95/62:0.0021647697)97.2/58:0.0024857885)95.9/69:0.0018638925)97.4/69:0.0033655818,PRDolive:0.0453604924)100/49:0.0032559508,PRDbigpapi:0.0169398144)98.3/69:0.0024483898,((PRDindigo:0.0476587938,PR4:0.0254232372)100/100:0.0536084926,PRDmagenta:0.0423158653)100/73:0.0082648145)99.6/98:0.0030555238)94.7/87:0.0029963724,(PRDcochinilla:0.0158873055,(((PRDnavy:0.0103655081,(PRDcarrot:0.0088552626,(((PRDbrick:0.0100898350,(PRDmaroon:0.0052431190,PRDshaddybee:0.0122398119)96.7/94:0.0025868514)99.9/98:0.0039271501,((PRDjuniper:0.0148125554,(PRDmint:0.0262535392,((L17:0.0006218320,PR3:0.0011556455)100/100:0.0253072711,PR772:0.0141652351)28.1/90:0.0021656915)99.4/91:0.0026781187)100/99:0.0044574319,PRDjet:0.0074379201)98.1/85:0.0027087453)17/45:0.0012274484,(PR5:0.0085507410,PRD1:0.0088941769)61.8/76:0.0012796159)92/83:0.0013617428)99.8/94:0.0024092197)97.6/99:0.0019203132,(PRDscarlet:0.0288099218,PRDcrimson:0.0104183864)100/100:0.0068957619)99.7/91:0.0023063627,(PRDroyal:0.0062874563,PRDemerald:0.0103444986)99.9/97:0.0026302811)83.9/84:0.0013561500)86.7/89:0.0014827778)100/100:0.0110399288,PRDmahogany:0.0059961655);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -120774.229944
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--PRDturquoise
+|
+|     +--PRDsage
+|  +--| (87)
+|  |  |              +--PRDmustard
+|  |  |           +--| (67)
+|  |  |           |  |           +--PRDrose
+|  |  |           |  |        +--| (96)
+|  |  |           |  |        |  +----------------------PRDamber
+|  |  |           |  |     +--| (100)
+|  |  |           |  |     |  |                        +--PRDaquamarine
+|  |  |           |  |     |  |          +-------------| (100)
+|  |  |           |  |     |  |          |             |    +--PRDasparagus
+|  |  |           |  |     |  |          |             +----| (100)
+|  |  |           |  |     |  |          |                  |       +--PRDpistachio
+|  |  |           |  |     |  |          |                  +-------| (100)
+|  |  |           |  |     |  |          |                          +--------PRDobsidian
+|  |  |           |  |     |  |      +---| (100)
+|  |  |           |  |     |  |      |   |  +--PRDwine
+|  |  |           |  |     |  |      |   +--| (96)
+|  |  |           |  |     |  |      |      |     +-----------------PRDcanary
+|  |  |           |  |     |  |      |      +-----| (99)
+|  |  |           |  |     |  |      |            +----PRDsepia
+|  |  |           |  |     |  |  +---| (100)
+|  |  |           |  |     |  |  |   +--PRDfuchsia
+|  |  |           |  |     |  +--| (100)
+|  |  |           |  |     |     +--PRDavocado
+|  |  |           |  |  +--| (94)
+|  |  |           |  |  |  +--PRDruby
+|  |  |           |  +--| (74)
+|  |  |           |     +--PRDpine
+|  |  |        +--| (69)
+|  |  |        |  |           +--PRDvermilion
+|  |  |        |  |        +--| (58)
+|  |  |        |  |        |  +--BCE1
+|  |  |        |  |     +--| (55)
+|  |  |        |  |     |  +--PRDmamacita
+|  |  |        |  |  +--| (56)
+|  |  |        |  |  |  |                  +-----------PRDpeacock
+|  |  |        |  |  |  |               +--| (100)
+|  |  |        |  |  |  |               |  +--PRDcobalt
+|  |  |        |  |  |  |            +--| (98)
+|  |  |        |  |  |  |            |  +--PRDsky
+|  |  |        |  |  |  |        +---| (100)
+|  |  |        |  |  |  |        |   +--PRDgold
+|  |  |        |  |  |  |     +--| (81)
+|  |  |        |  |  |  |     |  +---PRDforest
+|  |  |        |  |  |  |  +--| (53)
+|  |  |        |  |  |  |  |  +--PRDcherry
+|  |  |        |  |  |  +--| (96)
+|  |  |        |  |  |     +--PRDhazel
+|  |  |        |  +--| (69)
+|  |  |        |     |     +--PRDaubergine
+|  |  |        |     |  +--| (58)
+|  |  |        |     |  |  |  +---PRDcerulean
+|  |  |        |     |  |  +--| (62)
+|  |  |        |     |  |     |     +--PRDplum
+|  |  |        |     |  |     |  +--| (75)
+|  |  |        |     |  |     |  |  +--PRDchartreuse
+|  |  |        |     |  |     +--| (62)
+|  |  |        |     |  |        +--PRDteal
+|  |  |        |     +--| (39)
+|  |  |        |        |     +--PRDskutterchuck
+|  |  |        |        |  +--| (100)
+|  |  |        |        |  |  +--PRDgraphite
+|  |  |        |        +--| (77)
+|  |  |        |           +--PRDazure
+|  |  |     +--| (49)
+|  |  |     |  +------PRDolive
+|  |  |  +--| (69)
+|  |  |  |  +--PRDbigpapi
+|  |  +--| (98)
+|  |     |          +------PRDindigo
+|  |     |  +-------| (100)
+|  |     |  |       +---PR4
+|  |     +--| (73)
+|  |        +------PRDmagenta
++--| (100)
+|  |  +--PRDcochinilla
+|  +--| (89)
+|     |        +--PRDnavy
+|     |     +--| (99)
+|     |     |  |  +--PRDcarrot
+|     |     |  +--| (94)
+|     |     |     |        +--PRDbrick
+|     |     |     |     +--| (98)
+|     |     |     |     |  |  +--PRDmaroon
+|     |     |     |     |  +--| (94)
+|     |     |     |     |     +--PRDshaddybee
+|     |     |     |  +--| (45)
+|     |     |     |  |  |     +--PRDjuniper
+|     |     |     |  |  |  +--| (99)
+|     |     |     |  |  |  |  |  +---PRDmint
+|     |     |     |  |  |  |  +--| (91)
+|     |     |     |  |  |  |     |      +--L17
+|     |     |     |  |  |  |     |  +---| (100)
+|     |     |     |  |  |  |     |  |   +--PR3
+|     |     |     |  |  |  |     +--| (90)
+|     |     |     |  |  |  |        +--PR772
+|     |     |     |  |  +--| (85)
+|     |     |     |  |     +--PRDjet
+|     |     |     +--| (83)
+|     |     |        |  +--PR5
+|     |     |        +--| (76)
+|     |     |           +--PRD1
+|     |  +--| (91)
+|     |  |  |  +---PRDscarlet
+|     |  |  +--| (100)
+|     |  |     +--PRDcrimson
+|     +--| (84)
+|        |  +--PRDroyal
+|        +--| (97)
+|           +--PRDemerald
+|
++--PRDmahogany
+
+
+Consensus tree in newick format: 
+
+(PRDturquoise:0.0041591057,((PRDsage:0.0137027569,(((((PRDmustard:0.0141759216,((((PRDrose:0.0210367916,PRDamber:0.1417625276)96:0.0129183113,((((PRDaquamarine:0.0012694074,(PRDasparagus:0.0041260582,(PRDpistachio:0.0077816945,PRDobsidian:0.0562187942)100:0.0483445663)100:0.0340164498)100:0.0894229487,(PRDwine:0.0118196171,(PRDcanary:0.1096346479,PRDsepia:0.0341462590)99:0.0369103853)96:0.0036244294)100:0.0290023928,PRDfuchsia:0.0139564582)100:0.0273288815,PRDavocado:0.0169843912)100:0.0217097664)100:0.0185750513,PRDruby:0.0131135234)94:0.0017310409,PRDpine:0.0138194445)74:0.0027218117)67:0.0028563448,((((PRDvermilion:0.0167157271,BCE1:0.0134794699)58:0.0020885015,PRDmamacita:0.0121565031)55:0.0018816045,((((((PRDpeacock:0.0761619142,PRDcobalt:0.0098663212)100:0.0127022737,PRDsky:0.0064287562)98:0.0045607994,PRDgold:0.0070349663)100:0.0240335331,PRDforest:0.0238712357)81:0.0046788640,PRDcherry:0.0178985295)53:0.0068114306,PRDhazel:0.0190787347)96:0.0069858810)56:0.0019149661,((PRDaubergine:0.0156100350,(PRDcerulean:0.0259868094,((PRDplum:0.0157373413,PRDchartreuse:0.0205049671)75:0.0051098082,PRDteal:0.0078501767)62:0.0019289536)62:0.0024115219)58:0.0023027444,((PRDskutterchuck:0.0061729658,PRDgraphite:0.0113022087)100:0.0037941427,PRDazure:0.0177327943)77:0.0035240553)39:0.0012938390)69:0.0020614993)69:0.0032661598,PRDolive:0.0451648747)49:0.0032986566,PRDbigpapi:0.0170708948)69:0.0023041843,((PRDindigo:0.0473147653,PR4:0.0253710358)100:0.0532233640,PRDmagenta:0.0419864249)73:0.0081737206)98:0.0030497554)87:0.0030466610,(PRDcochinilla:0.0158047654,(((PRDnavy:0.0103009792,(PRDcarrot:0.0088104642,(((PRDbrick:0.0100431435,(PRDmaroon:0.0052192514,PRDshaddybee:0.0121840806)94:0.0025706965)98:0.0039110163,((PRDjuniper:0.0147452426,(PRDmint:0.0261182601,((L17:0.0006168807,PR3:0.0011531150)100:0.0251853319,PR772:0.0140977761)90:0.0021580126)91:0.0026735962)99:0.0044310615,PRDjet:0.0074021703)85:0.0026940198)45:0.0012243522,(PR5:0.0085047646,PRD1:0.0088510780)76:0.0012741699)83:0.0013585255)94:0.0024096544)99:0.0019161789,(PRDscarlet:0.0286787329,PRDcrimson:0.0103960611)100:0.0068317361)91:0.0022909810,(PRDroyal:0.0062605942,PRDemerald:0.0102891334)97:0.0026210264)84:0.0013560628)89:0.0015223795)100:0.0109273425,PRDmahogany:0.0059595030);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jan 27 15:22:56 2023
+Total CPU time used: 246.583309 seconds (0h:4m:6s)
+Total wall-clock time used: 516.8987081 seconds (0h:8m:36s)
+

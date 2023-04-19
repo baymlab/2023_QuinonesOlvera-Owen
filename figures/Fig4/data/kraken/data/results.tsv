@@ -1,0 +1,291 @@
+run_acc	total	matches	bioproject	snakemake	post_filter	filter_info	treatment	extraction	source	doi	size_mb	desc
+DIN	2133850	18	baymlab	False	True	.2 um	untreated	Invitrogen Viral	wastewater	-	-	-
+DIS	1948559	14	baymlab	False	True	.2 um	untreated	Invitrogen Viral	wastewater	-	-	-
+ERR1713331	40529941	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-3	4790	ALB.17
+ERR1713332	16343052	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-4	1989	AUS.18
+ERR1713333	6310888	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-5	765	AUS.18a
+ERR1713334	21697534	9	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-6	2641	AUT.70
+ERR1713335	25423122	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-7	3092	BGR.66
+ERR1713336	23135106	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-8	2812	BRA.53
+ERR1713337	40497132	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-9	4913	BRA.53a
+ERR1713338	20619819	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-10	2508	BWA.19
+ERR1713339	3122541	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-11	392	CAN.22
+ERR1713340	2080480	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-12	261	CAN.22a
+ERR1713341	17726986	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-13	2244	CAN.22b
+ERR1713342	45013223	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-14	5446	CAN.22c
+ERR1713343	11419255	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-15	1414	CHE 0.67
+ERR1713344	52319657	8	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-16	6402	CHN.64
+ERR1713345	30341667	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-17	3648	CIV.13
+ERR1713346	28198167	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-18	3384	COL.2
+ERR1713347	37949844	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-19	4600	CZE.23
+ERR1713348	10885310	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-20	1343	DEU.27
+ERR1713349	52784111	13	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-21	6865	DNK.71_RA
+ERR1713350	59594589	14	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-22	7444	DNK.71_RD
+ERR1713351	27649699	9	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-23	3359	DNK.71_RL
+ERR1713352	68267683	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-24	8294	ECU.14
+ERR1713353	16576713	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-25	1963	ECU.14a
+ERR1713354	17223596	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-26	2128	ESP 1
+ERR1713355	53725938	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-27	6397	ETH.24
+ERR1713356	22656065	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-28	2737	FIN.25
+ERR1713357	25013204	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-29	3048	GEO.59
+ERR1713358	49868484	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-30	5949	GHA.4
+ERR1713359	45821876	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-31	5512	GMB.10
+ERR1713360	16299576	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-32	1992	HRV.68
+ERR1713361	4176231	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-33	499	HUN.61
+ERR1713362	40014181	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-34	4809	IND.11
+ERR1713363	36542372	17	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-35	4397	IRL.69
+ERR1713364	24265044	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-36	2913	IRN.12
+ERR1713365	22537774	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-37	2722	ISL.28
+ERR1713366	4297115	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-38	535	ISR.29
+ERR1713367	60760389	8	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-39	7335	ITA.30
+ERR1713368	48937944	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-40	5814	KAZ.6
+ERR1713369	38565777	8	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-41	4656	KEN.72
+ERR1713370	41668096	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-42	5007	KHM.21
+ERR1713371	58216272	8	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-43	6835	LKA.40
+ERR1713372	46705143	16	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-44	5587	LUX.32
+ERR1713373	11488756	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-45	1405	LVA.31
+ERR1713374	27078086	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-46	3279	MDA.65
+ERR1713375	21799125	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-47	2685	MKD 0.62
+ERR1713376	25398280	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-48	3097	MLT.63
+ERR1713377	13436076	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-49	1746	MYS.54
+ERR1713378	23863735	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-50	2908	NGA.50
+ERR1713379	8230002	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-51	985	NLD.43
+ERR1713380	31968019	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-52	3844	NOR.34
+ERR1713381	48343422	10	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-53	5794	NPL.33
+ERR1713382	68982155	34	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-54	8338	NZL.56
+ERR1713383	27231492	8	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-55	3246	POL.36
+ERR1713384	53259350	12	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-56	6323	PAK.7
+ERR1713385	33527471	11	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-57	3896	PER.35
+ERR1713386	64613393	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-58	7516	SEN.8
+ERR1713387	22505101	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-59	2723	SGP.52
+ERR1713388	26366498	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-60	3141	SRB.37
+ERR1713389	25933498	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-61	3309	SVK.9
+ERR1713390	41769812	14	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-62	4926	SVN.38
+ERR1713391	49547797	11	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-63	5951	SWE.41
+ERR1713392	36338667	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-64	4341	SWE.41a
+ERR1713393	4518386	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-65	541	TCD.1
+ERR1713394	82010139	9	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-66	9886	TGO.44
+ERR1713395	40186029	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-67	4852	TUR.46
+ERR1713396	57489950	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-68	6852	TZA.15
+ERR1713397	44621047	13	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-69	5362	USA.74
+ERR1713398	23361286	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-70	2873	USA.74a
+ERR1713399	19010530	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-71	2351	USA.74b
+ERR1713400	27817657	10	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-72	3367	USA.74c
+ERR1713401	26269830	8	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-73	3189	USA.74d
+ERR1713402	22121930	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-74	2713	USA.74e
+ERR1713403	8823697	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-75	1103	USA.74f
+ERR1713404	8413273	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-76	1073	USA.74g
+ERR1713405	60249861	15	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-77	7984	USA.74h
+ERR1713406	45737232	15	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-78	5645	USA.74i
+ERR1713407	62151661	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-79	7501	VNM.48
+ERR1713408	42563944	9	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-80	5098	XK.60
+ERR1713409	21902362	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-81	2631	ZAF.39
+ERR1713410	27296861	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-82	3328	ZMB.49
+ERR1713411	19360109	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-83	2365	ZMB.49b
+ERR1725938	15233109	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-84	2041	ALB.17_2
+ERR1725939	4380903	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-85	590	AUS.18_2
+ERR1725940	3284933	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-86	477	AUS.18_3
+ERR1725941	3707864	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-87	466	AUS.18a_2
+ERR1725942	35784174	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-88	4596	AUS.18a_3
+ERR1725943	1567159	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-89	209	AUS.18a_4
+ERR1725944	15369297	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-90	2081	AUS.18a_5
+ERR1725945	13673415	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-91	1718	AUT.70_2
+ERR1725946	5780734	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-92	766	AUT.70_3
+ERR1725947	16823070	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-93	2147	BGR.66_2
+ERR1725948	7220280	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-94	972	BGR.66_3
+ERR1725949	2247008	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-95	297	BRA.53_2
+ERR1725950	35539971	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-96	4437	BRA.53a_2
+ERR1725951	14884472	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-97	1963	BRA.53a_3
+ERR1725952	1299550	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-98	174	BWA.19_2
+ERR1725953	5478069	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-99	749	BWA.19_3
+ERR1725954	894119	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-100	122	CAN.22_2
+ERR1725955	2298247	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-101	291	CAN.22a_2
+ERR1725956	11160908	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-102	1404	CAN.22a_3
+ERR1725957	983599	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-103	132	CAN.22a_4
+ERR1725958	4656095	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-104	619	CAN.22a_5
+ERR1725959	10160617	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-105	1280	CAN.22b_2
+ERR1725960	4213454	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-106	560	CAN.22b_3
+ERR1725961	10780078	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-107	1377	CHE.67_2
+ERR1725962	7272669	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-108	910	CHE.67_3
+ERR1725963	4556889	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-109	617	CHE.67_4
+ERR1725964	2968723	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-110	393	CHE.67_5
+ERR1725965	4676073	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-111	630	CIV.13_2
+ERR1725966	10178616	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-112	1380	CZE.23_2
+ERR1725967	7252218	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-113	998	DEU.27_2
+ERR1725968	3764860	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-114	503	DEU.27_3
+ERR1725969	33089057	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-115	4196	ESP.75_2
+ERR1725970	30734533	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-116	3927	ESP.75_3
+ERR1725971	13862624	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-117	1860	ESP.75_4
+ERR1725972	13015936	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-118	1755	ESP.75_5
+ERR1725973	3713418	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-119	503	FIN.25_2
+ERR1725974	17169359	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-120	2201	GEO.59_2
+ERR1725975	7159377	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-121	987	GEO.59_3
+ERR1725976	7578206	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-122	957	HRV.68_2
+ERR1725977	3118505	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-123	418	HRV>68_3
+ERR1725978	9575197	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-124	1280	IND.11_2
+ERR1725979	22378398	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-125	3248	IRL.68_2
+ERR1725980	8604302	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-126	1300	IRL.69_3
+ERR1725981	11033167	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-127	1461	IRN.12_2
+ERR1725982	5782614	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-128	767	ISL.28_2
+ERR1725983	9264634	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-129	1234	ISR.29_2
+ERR1725984	7816877	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-130	1022	ISR.29_3
+ERR1725985	16801205	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-131	2106	KEN.72_2
+ERR1725986	7030233	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-132	936	KEN.72_3
+ERR1725987	990989	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-133	133	LVA.31_2
+ERR1725988	25162742	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-134	3133	MDA.65_2
+ERR1725989	10489288	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-135	1383	MDA.65_3
+ERR1725990	15136389	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-136	1895	MKD.62_2
+ERR1725991	6394542	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-137	845	MKD.62_3
+ERR1725992	25261050	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-138	3168	MLT.63_2
+ERR1725993	10581190	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-139	1401	MLT.63_3
+ERR1725994	7736676	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-140	976	MYS.54_2
+ERR1725995	3207607	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-141	428	MYS.54_3
+ERR1725996	6981824	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-142	925	NGA.50_2
+ERR1725997	24901396	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-143	3324	NLD.43_2
+ERR1725998	24759244	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-144	3227	NDL.43_3
+ERR1725999	10937666	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-145	1469	NOR.34_2
+ERR1726000	3021602	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-146	402	POL.36_2
+ERR1726001	3663133	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-147	487	SGP.52_2
+ERR1726002	5176878	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-148	699	SRB.37_2
+ERR1726003	11252267	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-149	1503	SVK.9_2
+ERR1726004	4991154	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-150	671	SVN.38_2
+ERR1726005	22022194	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-151	2808	SWE.41a_2
+ERR1726006	9539145	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-152	1280	SWE.41a_3
+ERR1726007	2802156	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-153	367	TCD.1_2
+ERR1726008	2094894	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-154	279	TCD.1_3
+ERR1726009	12356727	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-155	1623	TUR.46_2
+ERR1726010	7564569	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-156	946	USA.74a_2
+ERR1726011	3124307	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-157	413	USA.74a_3
+ERR1726012	15044426	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-158	1931	USA.74b_2
+ERR1726013	16823671	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-159	2094	USA.74b_3
+ERR1726014	6325928	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-160	856	USA.74b_4
+ERR1726015	6955859	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-161	918	USA.74b_5
+ERR1726016	16889994	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-162	2099	USA.74d_2
+ERR1726017	6929129	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-163	911	USA.74d_3
+ERR1726018	14966484	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-164	1878	USA.74e_2
+ERR1726019	6222608	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-165	827	USA.74e_3
+ERR1726020	5853535	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-166	742	USA.74f_2
+ERR1726021	3285391	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-167	420	USA.74f_3
+ERR1726022	2369991	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-168	319	USA.74f_4
+ERR1726023	1408088	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-169	191	USA.74f_5
+ERR1726024	2051543	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-170	258	USA.74g_2
+ERR1726025	2987564	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-171	377	USA.74g_3
+ERR1726026	1556000	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-172	195	USA.74g_4
+ERR1726027	852085	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-173	113	USA.74g_5
+ERR1726028	1226771	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-174	164	USA.74g_6
+ERR1726029	644515	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-175	85	USA.74g_7
+ERR1726030	1873566	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-176	247	ZAF.39_2
+ERR1726031	3919046	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-177	521	ZMB.49_2
+ERR1726032	15288191	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-178	1923	ZMB.49b_2
+ERR1726033	38069060	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-179	4907	ZMB.49b_3
+ERR1726034	6416235	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-180	856	ZMB.49b_4
+ERR1726035	15847330	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-181	2161	ZMB.49b_5
+ERR2592244	24564881	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-182	3575	ALB.17_3
+ERR2592245	19120438	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-183	2783	AUS.18_5
+ERR2592246	20043705	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-184	2912	AUT.70_4
+ERR2592247	22723288	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-185	3306	BGR.66_4
+ERR2592248	18188397	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-186	2634	BRA.53_3
+ERR2592249	21230332	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-187	3140	BWA.19_4
+ERR2592250	94575863	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-188	14715	CAN.22b_5
+ERR2592251	12529016	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-189	1844	CHE.67_7
+ERR2592252	27890662	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-190	4096	CIV.13_3
+ERR2592253	25346024	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-191	3722	CZE.23_3
+ERR2592254	7349579	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-192	1064	DEU.27_5
+ERR2592255	22311941	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-193	3263	FIN.25_3
+ERR2592256	21454838	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-194	3129	GEO.59_4
+ERR2592257	8122584	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-195	1176	HRV.68_5
+ERR2592258	25339665	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-196	3721	IND.11_3
+ERR2592259	25128013	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-197	3695	IRN.12_3
+ERR2592260	23860535	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-198	3541	ISL.28_3
+ERR2592261	1081187	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-199	158	KEN.72_4
+ERR2592262	5003006	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-200	728	LVA.31_4
+ERR2592263	23731286	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-201	3479	MKD.62_4
+ERR2592264	23211510	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-202	3671	MYS.54_5
+ERR2592265	16657117	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-203	2453	NGA.50_3
+ERR2592266	30634826	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-204	4399	NLD.43_5
+ERR2592267	25067367	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-205	3649	NOR.34_3
+ERR2592268	21263953	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-206	3106	POL.36_3
+ERR2592269	17767345	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-207	2572	SGP.52_3
+ERR2592270	11422300	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-208	1653	SRB.37_3
+ERR2592271	14936934	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-209	2145	SVN.38_3
+ERR2592272	77910	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-210	12	TCD.1_5
+ERR2592273	17145206	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-211	2485	TUR.46_3
+ERR2592274	20279021	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-212	2950	USA.74a_4
+ERR2592275	13231972	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-213	1910	USA.74b_7
+ERR2592276	15664821	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-214	2292	USA.74c_2
+ERR2592277	20753083	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-215	3012	USA.74d_4
+ERR2592278	23812415	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-216	3498	USA.74e_4
+ERR2592279	21299911	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-217	3122	USA.74f_7
+ERR2592280	26754489	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-218	3835	USA.74g_9
+ERR2592281	2883485	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-219	419	ZAF.39_3
+ERR2592282	19303711	1	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-220	2797	ZMB.49_3
+ERR2592283	61054560	2	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-221	8884	ZMB.49b_7
+ERR2592328	20195870	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-222	2852	AUS.18_4
+ERR2592329	49839811	16	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-223	6386	CAN.22_3
+ERR2592331	11691161	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-224	1652	CHE.67_6
+ERR2592332	24363180	5	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-225	3188	DEU.27_4
+ERR2592333	10743370	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-226	1374	ECU.14a_2
+ERR2592334	30722347	11	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-227	4190	ESP.75_6
+ERR2592335	8351383	3	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-228	1152	HRV.68_4
+ERR2592336	12840934	9	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-229	1798	LVA.31_3
+ERR2592337	18453326	6	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-230	2522	MYS.54_4
+ERR2592338	47922742	20	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-231	6409	NLD.43_4
+ERR2592339	6513768	0	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-232	908	TCD.1_4
+ERR2592340	29411025	7	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-233	4107	USA.74b_6
+ERR2592341	13428227	4	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-234	1772	USA.74f_6
+ERR2592342	36940568	21	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-235	5009	USA.74g_8
+ERR2592343	43018798	9	PRJEB13831	True	False	-	untreated	QIAamp Fast DNA Stool	raw sewage	10.1038/s41467-019-08853-236	5619	ZMB.49b_6
+ERR2729796	10064892	10	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2342	NYC raw sewage
+ERR2729797	18312129	23	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	4276	NYC raw sewage
+ERR2729798	10672665	13	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2476	NYC raw sewage
+ERR2729799	11083621	12	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2566	NYC raw sewage
+ERR2729800	9893187	7	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2309	NYC raw sewage
+ERR2729801	10078843	13	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2342	NYC raw sewage
+ERR2729802	10987694	14	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2533	NYC raw sewage
+ERR2729803	10071277	14	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2329	NYC raw sewage
+ERR2729804	9892664	2	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2300	NYC raw sewage
+ERR2729805	11094487	7	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2555	NYC raw sewage
+ERR2729806	9667579	14	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2239	NYC raw sewage
+ERR2729807	10959117	15	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2561	NYC raw sewage
+ERR2729808	10393448	13	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2406	NYC raw sewage
+ERR2729809	9914397	12	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2309	NYC raw sewage
+ERR2729810	10294024	12	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2386	NYC raw sewage
+ERR2729811	8646908	7	PRJEB28033	True	False	-	untreated	PowerSoil	raw sewage	10.1038/s41396-019-0467-z	2008	NYC raw sewage
+SRR11472820	6007863	14	PRJNA622299	True	True	.4 um	chloroform	phenol-chloroform	water	10.1016/j.celrep.2020.108142	751	DNA sequencing of wastewater
+SRR11472821	5538332	9	PRJNA622299	True	True	.4 um, .22 um	untreated	phenol-chloroform	water	10.1016/j.celrep.2020.108142	697	DNA sequencing of wastewater
+SRR11472822	4810673	6	PRJNA622299	True	True	.4 um	untreated	phenol-chloroform	water	10.1016/j.celrep.2020.108142	621	DNA sequencing of wastewater
+SRR11472823	2408838	7	PRJNA622299	True	True	.4 um	chloroform	phenol-chloroform	water	10.1016/j.celrep.2020.108142	302	DNA sequencing of wastewater
+SRR11472824	5142394	4	PRJNA622299	True	True	.4 um, .22 um	untreated	phenol-chloroform	water	10.1016/j.celrep.2020.108142	646	DNA sequencing of wastewater
+SRR11472825	1139481	2	PRJNA622299	True	True	.4 um	untreated	phenol-chloroform	water	10.1016/j.celrep.2020.108142	158	DNA sequencing of wastewater
+SRR11472826	4177464	5	PRJNA622299	True	True	.4 um	chloroform	phenol-chloroform	water	10.1016/j.celrep.2020.108142	492	DNA sequencing of wastewater
+SRR11472827	7273709	4	PRJNA622299	True	True	.4 um, .22 um	untreated	phenol-chloroform	water	10.1016/j.celrep.2020.108142	904	DNA sequencing of wastewater
+SRR11472828	1551571	0	PRJNA622299	True	True	.4 um	untreated	phenol-chloroform	water	10.1016/j.celrep.2020.108142	190	DNA sequencing of wastewater
+SRR5570991	26494025	0	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	1802	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5570992	14665492	0	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	1003	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5570993	14504536	0	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	986	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5570994	10814725	1	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	736	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5570995	17845333	0	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	1226	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5570996	27539224	1	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	1809	Water sample was collected from secondary effluent in the Manitowoc wastewater treatment plant. DNA was extracted from a 1.6 um filter
+SRR5570997	9139266	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	601	Water sample was collected from secondary effluent in the Manitowoc wastewater treatment plant. DNA was extracted from a 0.22 um filter
+SRR5570998	16818063	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	1101	Water sample was collected from secondary effluent in the Manitowoc wastewater treatment plant. DNA was extracted from a 0.22 um filter
+SRR5570999	16461485	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	1092	Water sample was collected from secondary effluent in the Manitowoc wastewater treatment plant. DNA was extracted from a 0.22 um filter
+SRR5571000	17218657	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	1065	Water sample was collected from secondary effluent in the Sheboygan wastewater treatment plant. DNA was extracted from a 1.6 um filter
+SRR5571001	5400638	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	333	Water sample was collected from secondary effluent in the Sheboygan wastewater treatment plant. DNA was extracted from a 0.22 um filter
+SRR5571002	14788988	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	912	Water sample was collected from secondary effluent in the Sheboygan wastewater treatment plant. DNA was extracted from a 0.22 um filter
+SRR5571003	12731586	1	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	886	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5571004	16602453	1	PRJNA385831	True	False	-	untreated	phenol-chloroform	water	-	1034	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5571005	16635379	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	water	-	1030	Sludge sample was collected from the final clarifier at the Manitowoc wastewater treatment plant.
+SRR5571006	12071589	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	influent	-	752	Water sample was collected from secondary effluent in the Sheboygan wastewater treatment plant. DNA was extracted from a 0.22 um filter
+SRR5571007	18453722	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	water	-	1147	Water sample was collected from the final clarifier tank in the Sheboygan wastewater treatment plant. DNA was extracted from a 1.6 um filter
+SRR5571008	15282996	1	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	985	Activated sludge sample was collected from the Sheboygan wastewater treatment plant.
+SRR5571009	14610430	0	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	939	Activated sludge sample was collected from the Sheboygan wastewater treatment plant. 
+SRR5571010	14904873	0	PRJNA385831	True	False	-	untreated	phenol-chloroform	water	-	953	Water sample was collected from the final clarifier tank in the Sheboygan wastewater treatment plant.
+SRR5571011	15559978	0	PRJNA385831	True	False	-	untreated	PowerSoil 	sludge	-	1004	Activated sludge sample was collected from the Sheboygan wastewater treatment plant
+SRR7191290	29933826	1	PRJNA472060	True	True	.2 um	concentrated	AllPrep	water	10.1186/s13104-019-4251-y	2330	ZVI sand filtered reclaimed water
+SRR7191291	30857701	3	PRJNA472060	True	True	.2 um	concentrated	AllPrep	water	10.1186/s13104-019-4251-y	2491	ZVI sand filtered reclaimed water
+SRR7191292	23726492	0	PRJNA472060	True	True	.2 um	concentrated	AllPrep	water	10.1186/s13104-019-4251-y	1914	reclaimed water
+SRR7191293	27521057	2	PRJNA472060	True	True	.2 um	concentrated	AllPrep	water	10.1186/s13104-019-4251-y	2208	reclaimed water
+SRR7191294	24228281	0	PRJNA472060	True	True	.2 um	concentrated	AllPrep	water	10.1186/s13104-019-4251-y	1945	reclaimed water
+SRR8715492	28319204	7	PRJNA526679	True	True	.45 um	concentrated, chloroform	QIAamp UltraSens Virus	water	10.3389/fmicb.2020.00153	3890	Hospital wastewater treatment system at the Tel HaShomer Hospital i
+SRR8715493	27106470	38	PRJNA526679	True	True	.45 um	concentrated, chloroform	QIAamp UltraSens Virus	water	10.3389/fmicb.2020.00153	3734	Hospital wastewater treatment system at the Tel HaShomer Hospital i
+SRR8715494	17807200	9	PRJNA526679	True	True	.45 um	concentrated, chloroform	QIAamp UltraSens Virus	water	10.3389/fmicb.2020.00153	2468	Hospital wastewater treatment system at the Tel HaShomer Hospital i

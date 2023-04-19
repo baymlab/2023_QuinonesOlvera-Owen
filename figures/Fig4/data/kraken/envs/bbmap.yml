@@ -1,0 +1,32 @@
+name: bbmap
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - bbmap=39.01
+  - bzip2=1.0.8
+  - c-ares=1.18.1
+  - ca-certificates=2022.12.7
+  - curl=7.88.1
+  - keyutils=1.6.1
+  - krb5=1.20.1
+  - libcurl=7.88.1
+  - libedit=3.1.20191231
+  - libev=4.33
+  - libgcc-ng=12.2.0
+  - libgomp=12.2.0
+  - libnghttp2=1.52.0
+  - libssh2=1.10.0
+  - libstdcxx-ng=12.2.0
+  - libzlib=1.2.13
+  - ncurses=6.3
+  - openjdk=8.0.332
+  - openssl=3.0.8
+  - pbzip2=1.1.13
+  - samtools=1.6
+  - xz=5.2.6
+  - zlib=1.2.13
+prefix: /home/nq10/software/miniconda3/envs/bbmap

@@ -1,0 +1,66 @@
+##sequence-region NC_001421.2 1 14927
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10658
+NC_001421.2	RefSeq	region	1	14927	.	+	.	ID=NC_001421.2:1..14927;Dbxref=taxon:10658;gbkey=Src;genome=genomic;mol_type=genomic DNA
+NC_001421.2	RefSeq	gene	233	1012	.	+	.	ID=gene-PRD1_01;Dbxref=GeneID:1260933;Name=XIII;gbkey=Gene;gene=XIII;gene_biotype=protein_coding;locus_tag=PRD1_01
+NC_001421.2	RefSeq	CDS	233	1012	.	+	0	ID=cds-YP_009639955.1;Parent=gene-PRD1_01;Dbxref=Genbank:YP_009639955.1,GeneID:1260933;Name=YP_009639955.1;gbkey=CDS;gene=XIII;locus_tag=PRD1_01;product=terminal protein;protein_id=YP_009639955.1;transl_table=11
+NC_001421.2	RefSeq	gene	1016	2677	.	+	.	ID=gene-PRD1_02;Dbxref=GeneID:1260934;Name=I;gbkey=Gene;gene=I;gene_biotype=protein_coding;locus_tag=PRD1_02
+NC_001421.2	RefSeq	CDS	1016	2677	.	+	0	ID=cds-YP_009639956.1;Parent=gene-PRD1_02;Dbxref=Genbank:YP_009639956.1,GeneID:1260934;Name=YP_009639956.1;gbkey=CDS;gene=I;locus_tag=PRD1_02;product=DNA polymerase;protein_id=YP_009639956.1;transl_table=11
+NC_001421.2	RefSeq	gene	2679	3128	.	+	.	ID=gene-PRD1_03;Dbxref=GeneID:1260935;Name=XV;gbkey=Gene;gene=XV;gene_biotype=protein_coding;locus_tag=PRD1_03
+NC_001421.2	RefSeq	CDS	2679	3128	.	+	0	ID=cds-YP_009639957.1;Parent=gene-PRD1_03;Dbxref=Genbank:YP_009639957.1,GeneID:1260935;Name=YP_009639957.1;gbkey=CDS;gene=XV;locus_tag=PRD1_03;product=muramidase;protein_id=YP_009639957.1;transl_table=11
+NC_001421.2	RefSeq	gene	3128	4903	.	+	.	ID=gene-PRD1_04;Dbxref=GeneID:1260937;Name=II;gbkey=Gene;gene=II;gene_biotype=protein_coding;locus_tag=PRD1_04
+NC_001421.2	RefSeq	CDS	3128	4903	.	+	0	ID=cds-YP_009639958.1;Parent=gene-PRD1_04;Dbxref=Genbank:YP_009639958.1,GeneID:1260937;Name=YP_009639958.1;gbkey=CDS;gene=II;locus_tag=PRD1_04;product=receptor binding;protein_id=YP_009639958.1;transl_table=11
+NC_001421.2	RefSeq	gene	4907	5287	.	+	.	ID=gene-PRD1_05;Dbxref=GeneID:1260938;Name=XXXI;gbkey=Gene;gene=XXXI;gene_biotype=protein_coding;locus_tag=PRD1_05
+NC_001421.2	RefSeq	CDS	4907	5287	.	+	0	ID=cds-YP_009639959.1;Parent=gene-PRD1_05;Dbxref=Genbank:YP_009639959.1,GeneID:1260938;Name=YP_009639959.1;gbkey=CDS;gene=XXXI;locus_tag=PRD1_05;product=penton;protein_id=YP_009639959.1;transl_table=11
+NC_001421.2	RefSeq	gene	5287	6309	.	+	.	ID=gene-PRD1_06;Dbxref=GeneID:1260939;Name=V;gbkey=Gene;gene=V;gene_biotype=protein_coding;locus_tag=PRD1_06
+NC_001421.2	RefSeq	CDS	5287	6309	.	+	0	ID=cds-YP_009639960.1;Parent=gene-PRD1_06;Dbxref=Genbank:YP_009639960.1,GeneID:1260939;Name=YP_009639960.1;gbkey=CDS;gene=V;locus_tag=PRD1_06;product=spike;protein_id=YP_009639960.1;transl_table=11
+NC_001421.2	RefSeq	gene	6328	6588	.	+	.	ID=gene-PRD1_07;Dbxref=GeneID:1260940;Name=XVII;gbkey=Gene;gene=XVII;gene_biotype=protein_coding;locus_tag=PRD1_07
+NC_001421.2	RefSeq	CDS	6328	6588	.	+	0	ID=cds-YP_009639961.1;Parent=gene-PRD1_07;Dbxref=Genbank:YP_009639961.1,GeneID:1260940;Name=YP_009639961.1;gbkey=CDS;gene=XVII;locus_tag=PRD1_07;product=assembly;protein_id=YP_009639961.1;transl_table=11
+NC_001421.2	RefSeq	gene	6578	6784	.	+	.	ID=gene-PRD1_23;Dbxref=GeneID:5729503;Name=XXXIII;gbkey=Gene;gene=XXXIII;gene_biotype=protein_coding;locus_tag=PRD1_23
+NC_001421.2	RefSeq	CDS	6578	6784	.	+	0	ID=cds-YP_009639962.1;Parent=gene-PRD1_23;Dbxref=Genbank:YP_009639962.1,GeneID:5729503;Name=YP_009639962.1;gbkey=CDS;gene=XXXIII;locus_tag=PRD1_23;product=assembly;protein_id=YP_009639962.1;transl_table=11
+NC_001421.2	RefSeq	gene	6784	7284	.	+	.	ID=gene-PRD1_08;Dbxref=GeneID:1260941;Name=VI;gbkey=Gene;gene=VI;gene_biotype=protein_coding;locus_tag=PRD1_08
+NC_001421.2	RefSeq	CDS	6784	7284	.	+	0	ID=cds-YP_009639963.1;Parent=gene-PRD1_08;Dbxref=Genbank:YP_009639963.1,GeneID:1260941;Name=YP_009639963.1;gbkey=CDS;gene=VI;locus_tag=PRD1_08;product=minor capsid protein;protein_id=YP_009639963.1;transl_table=11
+NC_001421.2	RefSeq	gene	7029	7640	.	+	.	ID=gene-PRD1_24;Dbxref=GeneID:5729509;Name=X;gbkey=Gene;gene=X;gene_biotype=protein_coding;locus_tag=PRD1_24
+NC_001421.2	RefSeq	CDS	7029	7640	.	+	0	ID=cds-YP_009639964.1;Parent=gene-PRD1_24;Dbxref=Genbank:YP_009639964.1,GeneID:5729509;Name=YP_009639964.1;gbkey=CDS;gene=X;locus_tag=PRD1_24;product=assembly;protein_id=YP_009639964.1;transl_table=11
+NC_001421.2	RefSeq	gene	7637	8320	.	+	.	ID=gene-PRD1_09;Dbxref=GeneID:1260942;Name=IX;gbkey=Gene;gene=IX;gene_biotype=protein_coding;locus_tag=PRD1_09
+NC_001421.2	RefSeq	CDS	7637	8320	.	+	0	ID=cds-YP_009639965.1;Parent=gene-PRD1_09;Dbxref=Genbank:YP_009639965.1,GeneID:1260942;Name=YP_009639965.1;gbkey=CDS;gene=IX;locus_tag=PRD1_09;product=DNA packaging ATPase;protein_id=YP_009639965.1;transl_table=11
+NC_001421.2	RefSeq	gene	8332	8460	.	+	.	ID=gene-PRD1_10;Dbxref=GeneID:1260944;Name=ORFi;gbkey=Gene;gene=ORFi;gene_biotype=protein_coding;locus_tag=PRD1_10
+NC_001421.2	RefSeq	CDS	8332	8460	.	+	0	ID=cds-YP_009639966.1;Parent=gene-PRD1_10;Dbxref=Genbank:YP_009639966.1,GeneID:1260944;Name=YP_009639966.1;gbkey=CDS;gene=ORFi;locus_tag=PRD1_10;product=hypothetical protein;protein_id=YP_009639966.1;transl_table=11
+NC_001421.2	RefSeq	gene	8460	8588	.	+	.	ID=gene-PRD1_11;Dbxref=GeneID:1260945;Name=XX;gbkey=Gene;gene=XX;gene_biotype=protein_coding;locus_tag=PRD1_11
+NC_001421.2	RefSeq	CDS	8460	8588	.	+	0	ID=cds-YP_009639967.1;Parent=gene-PRD1_11;Dbxref=Genbank:YP_009639967.1,GeneID:1260945;Name=YP_009639967.1;gbkey=CDS;gene=XX;locus_tag=PRD1_11;product=DNA packaging;protein_id=YP_009639967.1;transl_table=11
+NC_001421.2	RefSeq	gene	8595	9782	.	+	.	ID=gene-PRD1_12;Dbxref=GeneID:1260932;Name=III;gbkey=Gene;gene=III;gene_biotype=protein_coding;locus_tag=PRD1_12
+NC_001421.2	RefSeq	CDS	8595	9782	.	+	0	ID=cds-YP_009639968.1;Parent=gene-PRD1_12;Dbxref=Genbank:YP_009639968.1,GeneID:1260932;Name=YP_009639968.1;gbkey=CDS;gene=III;locus_tag=PRD1_12;product=major capsid protein;protein_id=YP_009639968.1;transl_table=11
+NC_001421.2	RefSeq	gene	9801	9944	.	+	.	ID=gene-PRD1_14;Dbxref=GeneID:1260947;Name=XXII;gbkey=Gene;gene=XXII;gene_biotype=protein_coding;locus_tag=PRD1_14
+NC_001421.2	RefSeq	CDS	9801	9944	.	+	0	ID=cds-YP_009639969.1;Parent=gene-PRD1_14;Dbxref=Genbank:YP_009639969.1,GeneID:1260947;Name=YP_009639969.1;gbkey=CDS;gene=XXII;locus_tag=PRD1_14;product=DNA packaging;protein_id=YP_009639969.1;transl_table=11
+NC_001421.2	RefSeq	gene	9955	10038	.	+	.	ID=gene-PRD1_25;Dbxref=GeneID:5729507;Name=ORFx;gbkey=Gene;gene=ORFx;gene_biotype=protein_coding;locus_tag=PRD1_25
+NC_001421.2	RefSeq	CDS	9955	10038	.	+	0	ID=cds-YP_009639970.1;Parent=gene-PRD1_25;Dbxref=Genbank:YP_009639970.1,GeneID:5729507;Name=YP_009639970.1;gbkey=CDS;gene=ORFx;locus_tag=PRD1_25;product=hypothetical protein;protein_id=YP_009639970.1;transl_table=11
+NC_001421.2	RefSeq	gene	10044	10166	.	+	.	ID=gene-PRD1_26;Dbxref=GeneID:5729508;Name=ORFl;gbkey=Gene;gene=ORFl;gene_biotype=protein_coding;locus_tag=PRD1_26
+NC_001421.2	RefSeq	CDS	10044	10166	.	+	0	ID=cds-YP_009639971.1;Parent=gene-PRD1_26;Dbxref=Genbank:YP_009639971.1,GeneID:5729508;Name=YP_009639971.1;gbkey=CDS;gene=ORFl;locus_tag=PRD1_26;product=hypothetical protein;protein_id=YP_009639971.1;transl_table=11
+NC_001421.2	RefSeq	gene	10168	10440	.	+	.	ID=gene-PRD1_15;Dbxref=GeneID:1260946;Name=XVIII;gbkey=Gene;gene=XVIII;gene_biotype=protein_coding;locus_tag=PRD1_15
+NC_001421.2	RefSeq	CDS	10168	10440	.	+	0	ID=cds-YP_009639972.1;Parent=gene-PRD1_15;Dbxref=Genbank:YP_009639972.1,GeneID:1260946;Name=YP_009639972.1;gbkey=CDS;gene=XVIII;locus_tag=PRD1_15;product=DNA delivery;protein_id=YP_009639972.1;transl_table=11
+NC_001421.2	RefSeq	gene	10440	10604	.	+	.	ID=gene-PRD1_27;Dbxref=GeneID:5729501;Name=XXXII;gbkey=Gene;gene=XXXII;gene_biotype=protein_coding;locus_tag=PRD1_27
+NC_001421.2	RefSeq	CDS	10440	10604	.	+	0	ID=cds-YP_009639973.1;Parent=gene-PRD1_27;Dbxref=Genbank:YP_009639973.1,GeneID:5729501;Name=YP_009639973.1;gbkey=CDS;gene=XXXII;locus_tag=PRD1_27;product=DNA delivery;protein_id=YP_009639973.1;transl_table=11
+NC_001421.2	RefSeq	gene	10617	10823	.	+	.	ID=gene-PRD1_16;Dbxref=GeneID:1260927;Name=XXXIV;gbkey=Gene;gene=XXXIV;gene_biotype=protein_coding;locus_tag=PRD1_16
+NC_001421.2	RefSeq	CDS	10617	10823	.	+	0	ID=cds-YP_009639974.1;Parent=gene-PRD1_16;Dbxref=Genbank:YP_009639974.1,GeneID:1260927;Name=YP_009639974.1;gbkey=CDS;gene=XXXIV;locus_tag=PRD1_16;product=P34;protein_id=YP_009639974.1;transl_table=11
+NC_001421.2	RefSeq	gene	10833	11087	.	+	.	ID=gene-PRD1_17;Dbxref=GeneID:1260943;Name=XXX;gbkey=Gene;gene=XXX;gene_biotype=protein_coding;locus_tag=PRD1_17
+NC_001421.2	RefSeq	CDS	10833	11087	.	+	0	ID=cds-YP_009639975.1;Parent=gene-PRD1_17;Dbxref=Genbank:YP_009639975.1,GeneID:1260943;Name=YP_009639975.1;gbkey=CDS;gene=XXX;locus_tag=PRD1_17;product=minor capsid protein;protein_id=YP_009639975.1;transl_table=11
+NC_001421.2	RefSeq	gene	11090	11200	.	+	.	ID=gene-PRD1_28;Dbxref=GeneID:5729500;Name=ORFq;gbkey=Gene;gene=ORFq;gene_biotype=protein_coding;locus_tag=PRD1_28
+NC_001421.2	RefSeq	CDS	11090	11200	.	+	0	ID=cds-YP_009639976.1;Parent=gene-PRD1_28;Dbxref=Genbank:YP_009639976.1,GeneID:5729500;Name=YP_009639976.1;gbkey=CDS;gene=ORFq;locus_tag=PRD1_28;product=hypothetical protein;protein_id=YP_009639976.1;transl_table=11
+NC_001421.2	RefSeq	gene	11202	11825	.	+	.	ID=gene-PRD1_18;Dbxref=GeneID:1260930;Name=XI;gbkey=Gene;gene=XI;gene_biotype=protein_coding;locus_tag=PRD1_18
+NC_001421.2	RefSeq	CDS	11202	11825	.	+	0	ID=cds-YP_009639977.1;Parent=gene-PRD1_18;Dbxref=Genbank:YP_009639977.1,GeneID:1260930;Name=YP_009639977.1;gbkey=CDS;gene=XI;locus_tag=PRD1_18;product=DNA delivery;protein_id=YP_009639977.1;transl_table=11
+NC_001421.2	RefSeq	gene	11836	12189	.	+	.	ID=gene-PRD1_19;Dbxref=GeneID:1260929;Name=XVI;gbkey=Gene;gene=XVI;gene_biotype=protein_coding;locus_tag=PRD1_19
+NC_001421.2	RefSeq	CDS	11836	12189	.	+	0	ID=cds-YP_009639978.1;Parent=gene-PRD1_19;Dbxref=Genbank:YP_009639978.1,GeneID:1260929;Name=YP_009639978.1;gbkey=CDS;gene=XVI;locus_tag=PRD1_19;product=hypothetical protein;protein_id=YP_009639978.1;transl_table=11
+NC_001421.2	RefSeq	gene	12190	12987	.	+	.	ID=gene-PRD1_20;Dbxref=GeneID:1260931;Name=VII;gbkey=Gene;gene=VII;gene_biotype=protein_coding;locus_tag=PRD1_20
+NC_001421.2	RefSeq	CDS	12190	12987	.	+	0	ID=cds-YP_009639979.1;Parent=gene-PRD1_20;Dbxref=Genbank:YP_009639979.1,GeneID:1260931;Name=YP_009639979.1;gbkey=CDS;gene=VII;locus_tag=PRD1_20;product=transclycosylase;protein_id=YP_009639979.1;transl_table=11
+NC_001421.2	RefSeq	gene	12535	12987	.	+	.	ID=gene-PRD1_30;Dbxref=GeneID:5729506;Name=XIV;gbkey=Gene;gene=XIV;gene_biotype=protein_coding;locus_tag=PRD1_30
+NC_001421.2	RefSeq	CDS	12535	12987	.	+	0	ID=cds-YP_009639980.1;Parent=gene-PRD1_30;Dbxref=Genbank:YP_009639980.1,GeneID:5729506;Name=YP_009639980.1;gbkey=CDS;gene=XIV;locus_tag=PRD1_30;product=DNA delivery;protein_id=YP_009639980.1;transl_table=11
+NC_001421.2	RefSeq	gene	12984	13337	.	+	.	ID=gene-PRD1_31;Dbxref=GeneID:5729504;Name=XXXV;gbkey=Gene;gene=XXXV;gene_biotype=protein_coding;locus_tag=PRD1_31
+NC_001421.2	RefSeq	CDS	12984	13337	.	+	0	ID=cds-YP_009639981.1;Parent=gene-PRD1_31;Dbxref=Genbank:YP_009639981.1,GeneID:5729504;Name=YP_009639981.1;gbkey=CDS;gene=XXXV;locus_tag=PRD1_31;product=holin;protein_id=YP_009639981.1;transl_table=11
+NC_001421.2	RefSeq	gene	13330	13692	.	+	.	ID=gene-PRD1_32;Dbxref=GeneID:5729505;Name=ORFu;gbkey=Gene;gene=ORFu;gene_biotype=protein_coding;locus_tag=PRD1_32
+NC_001421.2	RefSeq	CDS	13330	13692	.	+	0	ID=cds-YP_009639982.1;Parent=gene-PRD1_32;Dbxref=Genbank:YP_009639982.1,GeneID:5729505;Name=YP_009639982.1;gbkey=CDS;gene=ORFu;locus_tag=PRD1_32;product=hypothetical protein;protein_id=YP_009639982.1;transl_table=11
+NC_001421.2	RefSeq	gene	13616	13888	.	+	.	ID=gene-PRD1_33;Dbxref=GeneID:5729502;Name=ORFv;gbkey=Gene;gene=ORFv;gene_biotype=protein_coding;locus_tag=PRD1_33
+NC_001421.2	RefSeq	CDS	13616	13888	.	+	0	ID=cds-YP_009639983.1;Parent=gene-PRD1_33;Dbxref=Genbank:YP_009639983.1,GeneID:5729502;Name=YP_009639983.1;gbkey=CDS;gene=ORFv;locus_tag=PRD1_33;product=hypothetical protein;protein_id=YP_009639983.1;transl_table=11
+NC_001421.2	RefSeq	gene	13848	14132	.	-	.	ID=gene-PRD1_21;Dbxref=GeneID:1260936;Name=XIX;gbkey=Gene;gene=XIX;gene_biotype=protein_coding;locus_tag=PRD1_21
+NC_001421.2	RefSeq	CDS	13848	14132	.	-	0	ID=cds-YP_009639984.1;Parent=gene-PRD1_21;Dbxref=Genbank:YP_009639984.1,GeneID:1260936;Name=YP_009639984.1;gbkey=CDS;gene=XIX;locus_tag=PRD1_21;product=ssDNA binding protein;protein_id=YP_009639984.1;transl_table=11
+NC_001421.2	RefSeq	gene	14205	14687	.	-	.	ID=gene-PRD1_22;Dbxref=GeneID:1260928;Name=XII;gbkey=Gene;gene=XII;gene_biotype=protein_coding;locus_tag=PRD1_22
+NC_001421.2	RefSeq	CDS	14205	14687	.	-	0	ID=cds-YP_009639985.1;Parent=gene-PRD1_22;Dbxref=Genbank:YP_009639985.1,GeneID:1260928;Name=YP_009639985.1;gbkey=CDS;gene=XII;locus_tag=PRD1_22;product=ssDNA binding protein;protein_id=YP_009639985.1;transl_table=11
+

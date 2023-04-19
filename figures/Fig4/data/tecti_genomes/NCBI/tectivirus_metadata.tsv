@@ -1,0 +1,20 @@
+acc	genus	species_name	isolate	len	host_class	host_sp
+NC_007451.1	Alphatectivirus	Alphatectivirus PR4	Enterobacteria phage PR4	14954	Gammaproteobacteria	Enterobacteriaceae
+NC_001421.2	Alphatectivirus	Alphatectivirus PRD1	Enterobacteria phage PRD1	14927	Gammaproteobacteria	Enterobacteriaceae
+NC_011523.1	Betatectivirus	Betatectivirus AP50	Bacillus phage AP50	14398	Bacilli	Bacillus anthracis
+NC_005258.1	Betatectivirus	Betatectivirus Bam35	Bacillus phage Bam35c	14935	Bacilli	Bacillus thuringiensis
+NC_006945.1	Betatectivirus	Betatectivirus GIL16	Bacillus phage GIL16c	14844	Bacilli	Bacillus thuringiensis
+MZ089978.1	Betatectivirus	Betatectivirus sato	Bacillus phage Sato	14852	Bacilli	Bacillus cereus
+MZ089979.1	Betatectivirus	Betatectivirus sole	Bacillus phage Sole	14444	Bacilli	Bacillus cereus VD166
+NC_022094.1	Betatectivirus	Betatectivirus Wip1	Bacillus phage Wip1	14319	Bacilli	Bacillus anthracis
+NC_055059.1	Deltatectivirus	Deltatectivirus forthebois	Streptomyces phage Forthebois	18251	Actinomycetia	Streptomyces scabiei
+NC_055060.1	Deltatectivirus	Deltatectivirus wheeheim	Streptomyces phage WheeHeim	18266	Actinomycetia	Streptomyces scabiei
+NC_055061.1	Epsilontectivirus	Epsilontectivirus toil	Rhodococcus phage Toil	17253	Actinomycetia	Rhodococcus opacus
+NC_042083.1	Gammatectivirus	Gammatectivirus GC1	Gluconobacter phage GC1	16523	Alphaproteobacteria	Gluconobacter cerinus
+MF186604.1	-	Methanosarcina spherical virus	Methanosarcina spherical virus	10567	Methanomicrobia	-
+MZ150790.1	-	Microbacterium phage Badulia	Microbacterium phage Badulia	15460	Actinomycetia	Microbacterium testaceum
+OL455892.1	-	Microbacterium phage DesireeRose	Microbacterium phage DesireeRose	15488	Actinomycetia	Microbacterium testaceum
+OP068334.1	-	Microbacterium phage LuzDeMundo	Microbacterium phage LuzDeMundo	15471	Actinomycetia	Microbacterium testaceum
+MT952848.1	-	Microbacterium phage MuffinTheCat	Microbacterium phage MuffinTheCat	15494	Actinomycetia	Microbacterium testaceum
+OP434453.1	-	Streptomyces phage RickRoss	Streptomyces phage RickRoss	18373	Actinomycetia	Streptomyces scabiei
+MH673671.2	-	Thermus phage phiKo	Thermus phage phiKo	11129	Deinococci	Thermus thermophilus HB27

@@ -1,0 +1,1 @@
+snakemake --snakefile figure_ndiv.smk --dag | dot -Tsvg > dag.svg

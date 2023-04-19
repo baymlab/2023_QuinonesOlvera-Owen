@@ -1,0 +1,35 @@
+{
+    "__default__" :
+     {
+        "time" : "0-3:00",
+        "n" : 1,
+        "mem" : "8G",
+        "p" : "short",
+        "e": "o2logs/{rule}.{wildcards.sample}.err",
+        "o": "o2logs/{rule}.{wildcards.sample}.out",
+        "J": "{wildcards.sample}-{rule}"
+    },
+     "all" :
+    {
+        "e": "o2logs/{rule}.err",
+        "o": "o2logs/{rule}.out"
+    },
+    "sra_download" :
+     {
+        "time" : "0-6:00",
+        "n" : 1,
+        "mem" : "12G"
+    },
+    "kraken_viral" :
+     {
+        "time" : "0-1:00",
+        "n" : 1,
+        "mem" : "4G"
+    },
+    "extract_reads" :
+     {
+        "time" : "0-1:00",
+        "n" : 1,
+        "mem" : "30G"
+    }
+}

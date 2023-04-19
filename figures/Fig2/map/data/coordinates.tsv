@@ -1,0 +1,8 @@
+phage	source	place	coords	year	author	doi
+PRD1	sewage	Michigan, USA	42.29, -85.585833	1972	Olsen	10.1128/JVI.14.3.689-699.1974
+PR772	sewage	Pretoria, South Africa	-25.746111, 28.188056	1979	Coetzee	10.1099/00221287-110-2-263
+PR5	sewage	Edmonton, Canada	53.534444, -113.490278	1978	Wong	10.1139/m78-145
+PR4	sewage	Melbourne, Australia	-37.814167, 144.963056	1974	Stanisch	10.1099/00221287-84-2-332
+PR3	sewage	Melbourne, Australia	-37.814167, 144.963056	1974	Stanisch	10.1099/00221287-84-2-332
+L17	river	Bristol, UK	51.530278, -2.273889	1981	Seeley	10.1099/0022-1317-57-2-365
+BCE1	(?) compost	(?) Victoria, Australia	-	2021	Ku	(?) 10.3390/v12101138

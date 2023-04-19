@@ -1,0 +1,518 @@
+# ╭───────────────────────────────────────────────────────────────────────────╮
+#   ASSEMBLY AND ANNOTATION OF PHAGE GENOMES
+#
+#   author: Natalia Quinones-Olvera
+#   email: nquinones@g.harvard.edu
+# ╰───────────────────────────────────────────────────────────────────────────╯
+
+
+import pandas as pd
+import os
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from io import StringIO 
+
+
+# ╭───────────────────────────────────────────────────────────────────────────╮
+#   SETUP
+# ╰───────────────────────────────────────────────────────────────────────────╯
+
+
+MAIN_DIR = '../data'
+READS_DIR = os.path.join(MAIN_DIR, 'reads')
+
+def main_dir(child):
+    return os.path.join(MAIN_DIR, child)
+
+# -----------------------------------------------------------------------------
+
+DEBUG = False
+DAAG = False
+
+# sample metadata
+df = pd.read_table(main_dir('metadata/phage_metadata.tsv'), sep='\t')
+
+# reference metadata
+df_ref = pd.read_table(main_dir('metadata/reference_genomes.tsv'), sep='\t')
+
+# reference files
+refrences = df_ref[df_ref['acc'] != '-']['reference']
+
+# dictionaries
+reference_dict = dict(zip(df['name'], df['reference']))
+size_dict = dict(zip(df_ref['reference'], df_ref['size']))
+start_gene_dict = dict(zip(df_ref['reference'], df_ref['orient_prot']))
+assembly_type_dict = dict(zip(df_ref['reference'], df_ref['assembly_type']))
+nulc_dict = dict(zip(df_ref['reference'], df_ref['nucl_type']))
+
+# directory definitions
+MAIN_DIR = '../data'
+READS_DIR = os.path.join(MAIN_DIR, 'reads')
+
+def main_dir(child):
+    return os.path.join(MAIN_DIR, child)
+
+# define samples
+if DEBUG:
+    # run a subset of samples
+    # refs: PRD1, Qbeta, MS2, M13
+    samples = ['PRDcerulean', 'FrMerlot', 'FrBlood', 'FfViolet']
+    
+    if not DAAG:
+        # this is to print a debug message
+        # when building dag
+        print('\033[1;31m +--------------------------------------------- \033[0;0m')
+        print(f'\033[1;31m | DEBUG MODE: only {samples} \033[0;0m')
+        print('\033[1;31m +--------------------------------------------- \033[0;0m')
+
+else:
+    samples = df['name'].to_list()
+
+
+# in case sample list is filtered
+references = df[df['name'].isin(samples)]['reference'].unique()
+
+# inverted dictonary, to go from reference -> name
+inverted_reference_dict = {}
+for column, row in df[df['name'].isin(samples)].iterrows():
+    if not row['reference'] in inverted_reference_dict:
+        inverted_reference_dict[row['reference']] = []
+    inverted_reference_dict[row['reference']].append(row['name'])
+
+
+# ╭───────────────────────────────────────────────────────────────────────────╮
+#   RULES
+# ╰───────────────────────────────────────────────────────────────────────────╯
+#
+# RULE ALL
+# -----------------------------------------------------------------------------
+
+rule all:
+    input:
+        html_report_R1 = expand(main_dir('reads/fastqc/{sample}/{sample}_R1.trim_fastqc.html'), sample=samples),
+        html_report_R2 = expand(main_dir('reads/fastqc/{sample}/{sample}_R2.trim_fastqc.html'), sample=samples),
+        oriented_assembly = expand(main_dir('assemblies_oriented/{sample}.fasta'), sample=samples),
+        embl = expand(main_dir('annotation/{sample}/{sample}.1.final.embl'), sample=samples),
+        gb = expand(main_dir('annotation/_gbks/{sample}.gb'), sample=samples)
+        #assembly = expand(main_dir('assemblies/{sample}/assembly.fasta'), sample=samples)
+        #blast_result = expand(main_dir('assemblies_blast/{sample}.tsv'), sample=samples),
+        #sam = expand(main_dir('aligned_assemblies/{sample}.sam'), sample=samples),
+        #renamed_consensus = expand(main_dir('aligned_assemblies/consensus/{sample}.consensus.fasta'), sample=samples),
+        #merged_fastas = expand(main_dir('aligned_assemblies/pid/{reference}.tbl'), reference=references)
+        #genbank = expand(main_dir('annotation/{sample}/{sample}.gbk'), sample=samples)
+
+
+
+# Trim adapters with trimmomatic
+# -----------------------------------------------------------------------------
+
+rule trimmomatic:
+    input:
+        # original reads
+        R1 = main_dir('reads/{sample}_R1.fastq.gz'),
+        R2 = main_dir('reads/{sample}_R2.fastq.gz')
+        
+    output:
+        # trimmed reads
+        R1_trimmed = main_dir('reads/trimmed_reads/{sample}_R1.trim.fastq.gz'),
+        R2_trimmed = main_dir('reads/trimmed_reads/{sample}_R2.trim.fastq.gz'),
+        R1_u_trimmed = main_dir('reads/trimmed_reads/unpaired/{sample}_R1.trim.U.fastq.gz'),
+        R2_u_trimmed = main_dir('reads/trimmed_reads/unpaired/{sample}_R2.trim.U.fastq.gz')
+    conda:
+        'envs/fastqc.yml'
+    params:
+        # nextera adapters file
+        adapters_path = main_dir('envs/NexteraPE-PE.fa')
+    shell:
+        # http://www.usadellab.org/cms/?page=trimmomatic
+        'trimmomatic '\
+            'PE '\
+            '{input.R1} '\
+            '{input.R2} '\
+            '{output.R1_trimmed} '\
+            '{output.R1_u_trimmed} '\
+            '{output.R2_trimmed} '\
+            '{output.R2_u_trimmed} '\
+            'ILLUMINACLIP:{params.adapters_path}:2:30:10:2:True '\
+            'LEADING:3 '\
+            'TRAILING:3 '\
+            'MINLEN:36'
+
+
+
+# Check read quality with fastqc
+# -----------------------------------------------------------------------------
+
+rule fastqc:
+    input:
+        # trimmed reads
+        R1_trimmed = main_dir('reads/trimmed_reads/{sample}_R1.trim.fastq.gz'),
+        R2_trimmed = main_dir('reads/trimmed_reads/{sample}_R2.trim.fastq.gz')
+    output:
+        # html reports from fastqc
+        html_report_R1 = main_dir('reads/fastqc/{sample}/{sample}_R1.trim_fastqc.html'),
+        html_report_R2 = main_dir('reads/fastqc/{sample}/{sample}_R2.trim_fastqc.html')
+    conda:
+        # https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+        'envs/fastqc.yml'
+    params:
+        outdir = main_dir('reads/fastqc/{sample}')
+    shell:
+        'fastqc '\
+            '{input.R1_trimmed} '\
+            '{input.R2_trimmed} '\
+            '-f fastq '\
+            '-o {params.outdir}'
+
+
+
+# RULE: Subsample reads from original read files to ~200x coverage
+# -----------------------------------------------------------------------------
+
+rule rasusa_subsample:
+    input:
+        # original reads
+        R1 = main_dir('reads/trimmed_reads/{sample}_R1.trim.fastq.gz'),
+        R2 = main_dir('reads/trimmed_reads/{sample}_R2.trim.fastq.gz')
+    output:
+        # subsampled reads output
+        sub_R1 = main_dir('reads/subsampled_200x/{sample}_R1.fastq.gz'),
+        sub_R2 = main_dir('reads/subsampled_200x/{sample}_R2.fastq.gz')
+    conda:
+        # https://github.com/mbhall88/rasusa
+        'envs/rasusa.yml'
+    params:\
+        g_size = lambda wc: size_dict[reference_dict[wc.sample]]
+    shell:
+         'rasusa ' \
+             '-i {input.R1} '
+             '-i {input.R2} ' \
+             '--coverage 200 ' \
+             '--genome-size {params.g_size} ' \
+             '-o {output.sub_R1} '\
+             '-o {output.sub_R2}'
+
+
+# RULE: Assemble genomes with unicycler
+# -----------------------------------------------------------------------------
+            
+rule unicycler_assembly:
+    input:
+        # subsampled reads
+        sub_R1 = main_dir('reads/trimmed_reads/{sample}_R1.trim.fastq.gz'),
+        sub_R2 = main_dir('reads/trimmed_reads/{sample}_R2.trim.fastq.gz')
+    output:
+        # main assembly
+        main_dir('assemblies/{sample}/assembly.fasta')
+    conda:
+        # https://github.com/rrwick/Unicycler
+        "envs/unicycler.yml"
+    params:
+        # variable to pass outdir output
+        outdir = main_dir('assemblies/{sample}/')
+    shell:
+        'unicycler ' \
+            '-1 {input.sub_R1} ' \
+            '-2 {input.sub_R2} ' \
+            '-o {params.outdir}'
+
+
+# RULE: Orient the assemblies with ruddr
+# -----------------------------------------------------------------------------
+
+rule ruddr_orient:
+    input:
+        main_dir('assemblies/{sample}/assembly.fasta')
+    output:
+        main_dir('assemblies_oriented/{sample}.fasta')
+    conda:
+        'envs/ruddr.yml'
+    params:
+        ruddr_path = 'ruddr/ruddr.py',
+        start_gene = lambda wc: main_dir(f'reference/orient_prot/{start_gene_dict[reference_dict[wc.sample]]}.faa')
+    shell:
+        'python {params.ruddr_path} '\
+            '-o {output} ' \
+            '{input} ' \
+            '{params.start_gene}'
+
+
+# RULE: Annotate with MONKEratt
+# -----------------------------------------------------------------------------
+
+rule ratt_annotation:
+    input:
+        assembly_oriented = main_dir('assemblies_oriented/{sample}.fasta')
+    output:
+        embl = main_dir('annotation/{sample}/{sample}.1.final.embl')
+    conda:
+        'envs/ratt.yml'PRD
+    params:
+        monkeratt_path = 'monkeratt/monkeratt.py',
+        output_dir = main_dir('annotation/{sample}'),
+        prefix = '{sample}',
+        reference_embl_dir = lambda wc: main_dir(f'reference/genomes/{reference_dict[wc.sample]}_embl')
+    shell:
+        'python {params.monkeratt_path} '\
+                '-e {params.reference_embl_dir} '\
+                '-o {params.output_dir} '\
+                '-p {params.prefix} '\
+                '-t Species '\
+                '{input.assembly_oriented}'
+
+
+# RULE: Convert embl files to gb
+# -----------------------------------------------------------------------------
+
+rule embl_to_gb:
+    input:
+        embl = main_dir('annotation/{sample}/{sample}.1.final.embl')
+    output:
+        gb = main_dir('annotation/_gbks/{sample}.gb')
+    params:
+        embl2gb_path = 'monkeratt/embl2gb.py',
+        prefix = '{sample}',
+        nucl_type = lambda wc: nulc_dict[reference_dict[wc.sample]],
+    shell:
+        'python {params.embl2gb_path} '\
+               '-p {params.prefix} '\
+               '-t '\
+               '-m {params.nucl_type} '\
+               '-d PHG '\
+               '{input.embl} '\
+               '{output.gb}'
+
+
+# RULE: Make blastdb
+# -----------------------------------------------------------------------------
+
+rule make_blastdb:
+    input:
+        # use all the references from the reference metadata tsv
+        expand(main_dir('reference/{reference}.fasta'), reference=refrences)
+    output:
+        # merged fasta file with references
+        reference_fasta = main_dir('reference/blastdb/references.fasta')
+    params:
+        # database name
+        db = main_dir('reference/blastdb/references')
+    shell:
+        'cat {input} '\
+            '> {output.reference_fasta} '\
+            '&& '
+        'makeblastdb '\
+            '-in {output.reference_fasta} '\
+            '-out {params.db} '\
+            '-title references '\
+            '-dbtype nucl'
+
+
+# RULE: Blast contigs to references
+# -----------------------------------------------------------------------------
+
+rule blast_assemblies:
+    input:
+        # assemblies
+        assembly = main_dir('assemblies/{sample}/assembly.fasta'),
+        # merged references
+        reference_fasta = main_dir('reference/blastdb/references.fasta')
+    output:
+        # blast hits table
+        main_dir('assemblies_blast/{sample}.tsv')
+    shell:
+        'blastn '\
+            '-query {input.assembly} '\
+            '-subject {input.reference_fasta} '\
+            '-outfmt 6 '\
+            '-max_target_seqs 1 '\
+            '> {output}'
+
+        
+# RULE: Align to reference with minimap2
+# -----------------------------------------------------------------------------
+
+rule align_to_reference:
+    input:
+        oriented_asssembly = main_dir('assemblies_oriented/{sample}.fasta')
+    output:
+        sam = main_dir('aligned_assemblies/{sample}.sam'),
+        bam = main_dir('aligned_assemblies/{sample}.bam'),
+        bam_bai = main_dir('aligned_assemblies/{sample}.bam.bai')
+    params:
+        reference_genome = lambda wc: main_dir(f'reference/{reference_dict[wc.sample]}.fasta')
+    conda:
+        'envs/minimap2.yml'
+    shell:
+        'minimap2 '\
+            '-ax asm20 '\
+            '-B2 '\
+            '-O6,26 '\
+            '--end-bonus 100 '\
+            '--cs '\
+            '{params.reference_genome} '\
+            '{input.oriented_asssembly}  '\
+            '> {output.sam} && '\
+        'samtools view '\
+            '-bS {output.sam} | '\
+        'samtools sort '\
+            '- '\
+            '> {output.bam} && '\
+        'samtools index '\
+            '{output.bam}'
+
+
+# RULE: Make vcf file with paftools
+# -----------------------------------------------------------------------------
+
+rule make_vcf:
+    input:
+        sam = main_dir('aligned_assemblies/{sample}.sam')
+    output:
+        vcf = main_dir('aligned_assemblies/{sample}.vcf')
+    params:
+        reference_genome = lambda wc: main_dir(f'reference/{reference_dict[wc.sample]}.fasta'),
+        min_aln_len_cov = 1000,
+        min_aln_len_var = 1000
+    conda:
+        'envs/minimap2.yml'
+    shell:
+        'paftools.js sam2paf '\
+            '{input.sam} | '\
+        'sort '\
+            '-k6,6 '\
+            '-k8,8n | '\
+        'paftools.js call '\
+            '-s {wildcards.sample} '\
+            '-L {params.min_aln_len_var} '\
+            '-l {params.min_aln_len_cov} '\
+            '-f {params.reference_genome} '\
+            '- '\
+            '> {output.vcf}'
+
+
+# RULE: Get a SNPs only vcf
+# -----------------------------------------------------------------------------
+
+rule snp_only_vcf:
+    input:
+        vcf = main_dir('aligned_assemblies/{sample}.vcf')
+    output:
+        snp_vcf = main_dir('aligned_assemblies/{sample}.snp.vcf')
+    conda:
+        'envs/minimap2.yml'
+    shell:
+        'bcftools view '\
+            '--types snps '\
+            '{input.vcf} '\
+            '> {output.snp_vcf}'
+
+
+            
+# RULE: Propagate SNPs to fasta reference Bcftools consensus
+# -----------------------------------------------------------------------------
+
+rule propagate_snps:
+    input:
+        snp_vfc = main_dir('aligned_assemblies/{sample}.snp.vcf')
+    output:
+        snp_vfc_gz = main_dir('aligned_assemblies/{sample}.snp.vcf.gz'),
+        ref_with_snps = temp(main_dir('aligned_assemblies/consensus/{sample}.consensus.tmp.fasta'))
+    params:
+        reference_genome = lambda wc: main_dir(f'reference/{reference_dict[wc.sample]}.fasta')
+    conda:
+        'envs/minimap2.yml'
+    shell:
+        'bcftools view '\
+            '{input.snp_vfc} '\
+            '-Oz '\
+            '-o {output.snp_vfc_gz} &&'\
+        'bcftools index '\
+            '{output.snp_vfc_gz} &&'
+        'bcftools consensus '\
+            '-f {params.reference_genome} '\
+            '-o {output.ref_with_snps} '\
+            '{output.snp_vfc_gz}'
+
+
+# RULE: Merge into fasta files per type
+# -----------------------------------------------------------------------------
+
+rule rename_fasta:
+    input:
+        main_dir('aligned_assemblies/consensus/{sample}.consensus.tmp.fasta')
+    output:
+        renamed_consensus = main_dir('aligned_assemblies/consensus/{sample}.consensus.fasta')
+    run:
+        record = list(SeqIO.parse(str(input), 'fasta'))[0]
+        
+        record.id = wildcards.sample
+        record.name = ''
+        record.description = ''
+        
+        with open(str(output.renamed_consensus), 'w') as f:
+            SeqIO.write([record], f, 'fasta')
+
+            
+rule merge_fasta:
+    input:
+        lambda wc: expand(main_dir('aligned_assemblies/consensus/{sample}.consensus.fasta'), sample=inverted_reference_dict[wc.reference])
+    output:
+        main_dir('aligned_assemblies/merged_consensus/{reference}.fasta')
+    shell:
+        'cat {input} > {output}'
+
+        
+rule alipid:
+    input:
+        main_dir('aligned_assemblies/merged_consensus/{reference}.fasta')
+    output:
+        main_dir('aligned_assemblies/pid/{reference}.tbl')
+    shell:
+        'esl-alipid {input} > {output}'
+        
+            
+# RULE: IQtree ()
+# -----------------------------------------------------------------------------
+              
+                               
+# RULE: Annotate with bakta
+# -----------------------------------------------------------------------------
+
+rule bakta_annotation:
+    input:
+        assembly_oriented = main_dir('assemblies_oriented/{sample}.fasta')
+    output:
+        genbank = main_dir('annotation/{sample}/{sample}.gbk'),
+        fna =  main_dir('annotation/{sample}/{sample}.fna')
+    conda:
+        # https://github.com/oschwengers/bakta
+        'envs/bakta.yml'
+    params:
+        output_dir = main_dir('annotation/{sample}'),
+        prefix = '{sample}',
+        reference_gb = lambda wc: main_dir(f'reference/genomes/{reference_dict[wc.sample]}.gb'),
+        bakta_db = '//n/data1/hms/dbmi/baym/databases/bakta_db'
+    shell:
+        'echo {params.reference_gb} && '\
+         'bakta ' \
+             '--db {params.bakta_db} ' \
+             '--output {params.output_dir} ' \
+             '--prefix {params.prefix} ' \
+             '--compliant ' \
+             '--proteins {params.reference_gb} ' \
+             '{input.assembly_oriented}'
+
+
+        
+
+
+# RULE: Make folder with fasta files
+# -----------------------------------------------------------------------------
+
+rule get_fasta:
+    input:
+        prokka_fna = main_dir('annotation/{sample}/{sample}.fna')
+    output:
+        clean_fasta = main_dir('all_fasta_genomes/{sample}.fasta')
+    shell:
+        'cp {input.prokka_fna} {output.clean_fasta}'

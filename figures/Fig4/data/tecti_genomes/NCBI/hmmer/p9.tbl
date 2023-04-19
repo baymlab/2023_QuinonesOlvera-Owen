@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_042083.1_orf9     -          IX.2                 -            6.2e-74  242.3   0.0   7.2e-74  242.1   0.0   1.0   1   0   0   1   1   1   1 -
+NC_055061.1_orf12    -          IX.2                 -            1.9e-65  214.6   0.0   2.4e-65  214.3   0.0   1.1   1   0   0   1   1   1   1 -
+NC_005258.1_orf14    -          IX.2                 -            3.1e-58  191.1   0.0   4.1e-58  190.7   0.0   1.1   1   0   0   1   1   1   1 -
+MZ089979.1_orf13     -          IX.2                 -            6.9e-57  186.7   0.0   9.1e-57  186.3   0.0   1.1   1   0   0   1   1   1   1 -
+NC_006945.1_orf13    -          IX.2                 -            9.6e-57  186.2   0.0   1.2e-56  185.9   0.0   1.0   1   0   0   1   1   1   1 -
+MZ089978.1_orf16     -          IX.2                 -            1.5e-56  185.6   0.0     2e-56  185.2   0.0   1.1   1   0   0   1   1   1   1 -
+NC_011523.1_orf14    -          IX.2                 -            2.5e-55  181.6   0.0     3e-55  181.4   0.0   1.0   1   0   0   1   1   1   1 -
+NC_022094.1_orf9     -          IX.2                 -            3.9e-55  181.0   0.0   4.6e-55  180.7   0.0   1.0   1   0   0   1   1   1   1 -
+NC_055059.1_orf15    -          IX.2                 -            2.8e-36  119.4   0.0   3.5e-36  119.1   0.0   1.1   1   0   0   1   1   1   1 -
+NC_055060.1_orf15    -          IX.2                 -            9.3e-36  117.7   0.0   1.2e-35  117.4   0.0   1.1   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../data/models/hmm/IX.2.hmm
+# Target file:     ../data/tecti_genomes/NCBI/hmmer/all_ncbi_orfs.faa
+# Option settings: hmmsearch --tblout ../data/tecti_genomes/NCBI/hmmer/p9.tbl ../data/models/hmm/IX.2.hmm ../data/tecti_genomes/NCBI/hmmer/all_ncbi_orfs.faa 
+# Current dir:     /n/data1/hms/dbmi/baym/nquinones/2022_QuinonesOlvera-Owen/figures/Fig3/notebooks
+# Date:            Tue Feb  7 18:31:23 2023
+# [ok]

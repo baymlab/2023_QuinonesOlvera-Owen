@@ -1,0 +1,17 @@
+{
+    "__default__" :
+    {
+        "time" : "0-12:00",
+        "n" : 1,
+        "mem" : "1G",
+        "p" : "short",
+        "e": "../data/o2logs/{rule}.{wildcards.sample}.err",
+        "o": "../data/o2logs/{rule}.{wildcards.sample}.out",
+        "J": "{wildcards.sample}-{rule}"
+    },
+     "all" :
+    {
+        "e": "../data/o2logs/{rule}.err",
+        "o": "../data/o2logs/{rule}.out"
+    }
+}

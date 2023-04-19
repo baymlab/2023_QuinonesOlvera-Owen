@@ -1,0 +1,12 @@
+name: rasusa
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - libgcc-ng=11.1.0=hc902ee8_8
+  - libgomp=11.1.0=hc902ee8_8
+  - rasusa=0.5.0=h779adbc_0
+prefix: /home/nq10/software/miniconda3/envs/rasusa

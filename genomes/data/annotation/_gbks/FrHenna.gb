@@ -1,0 +1,184 @@
+LOCUS       Exported                3473 bp ds-DNA     linear   PHG 20-JAN-2023
+DEFINITION  natural linear DNA
+ACCESSION   XXXXXXXX
+VERSION     .
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+REFERENCE   1  (bases 1 to 3473)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Friday, Jan 20, 2023 from SnapGene 5.1.7
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..3473
+                     /organism="unspecified"
+                     /mol_type="genomic DNA"
+     source          260..2963
+                     /organism="Escherichia phage MS2"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:12022"
+     gap             1..259
+                     /estimated_length=259
+     CDS             130..1215
+                     /codon_start=3
+                     /transl_table=11
+                     /product="head maturation protease"
+                     /label=mat
+                     /note="unnamed protein product; A-protein"
+                     /db_xref="GOA:P03610"
+                     /db_xref="InterPro:IPR005563"
+                     /db_xref="UniProtKB/Swiss-Prot:P03610"
+                     /protein_id="CAA23988.1"
+                     /translation="????????????????????????????????????????????R
+                     SGSSWGRPYEEKAGFGFSLDARSCYGLFPVSQNLTYIEVPQNVANRASTEVLQKVTQGN
+                     FNLGVALAEARSTASQLATQTIALVKAYTAARRGNWRQALRYLALNEDRKFRSKHVADR
+                     WLELQFGWLPLMSDIQGAYEMLTKVHLQEFLPMRAVRQVGTNVRLDGRLSYPAANYQTT
+                     CNISRRIVIWFYINDARLAWLSSLGILNPLGIVWEKVPFSFVVDWLLPVGNMLEGLTAP
+                     VGCSYMSGTVTDVITGESIISVDAPYGWTVERQGTAKAQISAMHRGVQSVWPTTGTYVK
+                     SPFSMVHTLDALALIRQRLSR"
+     CDS             1239..1631
+                     /codon_start=1
+                     /transl_table=11
+                     /product="coat protein"
+                     /label=cp
+                     /note="unnamed protein product; coat protein"
+                     /db_xref="GOA:P03612"
+                     /db_xref="InterPro:IPR002703"
+                     /db_xref="InterPro:IPR015954"
+                     /db_xref="PDB:1AQ3"
+                     /db_xref="PDB:1AQ4"
+                     /db_xref="PDB:1BMS"
+                     /db_xref="PDB:1MSC"
+                     /db_xref="PDB:1MST"
+                     /db_xref="PDB:1MVA"
+                     /db_xref="PDB:1MVB"
+                     /db_xref="PDB:1U1Y"
+                     /db_xref="PDB:1ZDH"
+                     /db_xref="PDB:1ZDI"
+                     /db_xref="PDB:1ZDJ"
+                     /db_xref="PDB:1ZDK"
+                     /db_xref="PDB:1ZSE"
+                     /db_xref="PDB:2B2D"
+                     /db_xref="PDB:2B2E"
+                     /db_xref="PDB:2B2G"
+                     /db_xref="PDB:2BNY"
+                     /db_xref="PDB:2BQ5"
+                     /db_xref="PDB:2BS0"
+                     /db_xref="PDB:2BS1"
+                     /db_xref="PDB:2BU1"
+                     /db_xref="PDB:2C4Q"
+                     /db_xref="PDB:2C4Y"
+                     /db_xref="PDB:2C4Z"
+                     /db_xref="PDB:2C50"
+                     /db_xref="PDB:2C51"
+                     /db_xref="PDB:2IZ8"
+                     /db_xref="PDB:2IZ9"
+                     /db_xref="PDB:2IZM"
+                     /db_xref="PDB:2IZN"
+                     /db_xref="PDB:2MS2"
+                     /db_xref="PDB:2VTU"
+                     /db_xref="PDB:2WBH"
+                     /db_xref="PDB:5MSF"
+                     /db_xref="PDB:6MSF"
+                     /db_xref="PDB:7MSF"
+                     /db_xref="UniProtKB/Swiss-Prot:P03612"
+                     /protein_id="CAA23989.1"
+                     /translation="MASNFTQFVLVDNGGTGDVTVAPSNFANGVAEWISSNSRSQAYKV
+                     TCSVRQSSAQNRKYTIKVEVPKVATQTVGGVQLPVAAWRSYLNMELTIPIFATNDDCAL
+                     IVKAMQGLLKDGNPIPSAIAANSGIY"
+     CDS             1582..1809
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lysis protein"
+                     /label=lys
+                     /note="unnamed protein product; L-protein"
+                     /db_xref="GOA:P03609"
+                     /db_xref="InterPro:IPR022599"
+                     /db_xref="UniProtKB/Swiss-Prot:P03609"
+                     /protein_id="CAA23990.1"
+                     /translation="METRSPQQSQQTPESTNRFRPFQHEDYPCRRQQRSSTLYVLIFLA
+                     IFLSKFTNQLLLSLLEAVIRTVETLQQLLT"
+     CDS             1665..3302
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA replicase beta subunit"
+                     /label=rep
+                     /note="unnamed protein product; replicase, beta subunit"
+                     /db_xref="GOA:P00585"
+                     /db_xref="InterPro:IPR005093"
+                     /db_xref="InterPro:IPR007096"
+                     /db_xref="UniProtKB/Swiss-Prot:P00585"
+                     /protein_id="CAA23991.1"
+                     /translation="MSKTTKKFNSLCIDLPRDLSLEIYQSIASVATGSGDPHSRDFTAI
+                     AYLRDELLTKHPSLGNGNDEATRRALAIAKLREANERCGQINREGFLHDKSLSWDPDVL
+                     QTSIRSLIGNLLSGYRSSLFGQCTFSNGASMGHKLQDAAPYKKFAEQATVTPRALRAAL
+                     LVRDQCVPWIRHAVRYNESYKFRLVVGNGVFTVPKNNKIDRAACKEPDMNMYLQKGVGA
+                     FIRRRLKSVGIDLNDQTINQRLAQQGSVDGSLATIDLSSASDSISDRLVWSFLPPELYS
+                     YLDRIRSHYGIVDGETIRWELFSTMGNGFTFELESMIFWAIVKATQIHFGNAGTIGIYG
+                     DDIICPSEIAPRVLEALAYYGFKPNLRKTFVSGLFRESCGAHFYRGVDVKPFYIKKPVD
+                     NLFSLMLIMNRLRGWGVVGGMSDPRLYKVWVRLS?????????????????????????
+                     ???????????????????????????????????????????????????????????
+                     ?????????????????????????????"
+     gap             2964..3473
+                     /estimated_length=510
+ORIGIN
+        1 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+       61 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      121 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      181 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      241 nnnnnnnnnn nnnnnnnnna gcgctctggg tcatcgtggg gtcgcccgta cgaggagaaa
+      301 gccggttttg gcttctcgct cgacgcacgc tcctgctacg gcctcttccc tgttagtcag
+      361 aacttgactt acatcgaagt gccgcagaac gttgcgaatc gggcgtcgac tgaagtcctg
+      421 caaaaggtga cccaaggtaa ctttaatctt ggtgttgctt tagcagaggc gaggtcgaca
+      481 gcctcacaac tcgcgacgca aaccattgcg ctcgtgaagg cgtacactgc cgctcgtcgt
+      541 ggcaattggc gccaggcgct ccgctacctt gccctaaacg aagatcgaaa atttcgatca
+      601 aaacacgtgg ccgacaggtg gttggagttg cagttcggct ggctaccgct aatgagcgat
+      661 atccagggcg cgtatgagat gcttacgaag gttcaccttc aagagtttct tcctatgaga
+      721 gccgtacggc aagtgggcac taacgttagg ttagatggtc gcttatcgta tccagctgca
+      781 aactaccaga ctacgtgcaa catatcgcga cgaatcgtga tatggtttta cataaacgat
+      841 gcacgtttgg cctggttgtc gtctctaggt atcttgaacc cactaggtat agtgtgggaa
+      901 aaggtgcctt tctcattcgt tgtcgactgg ctccttcctg ttgggaacat gctcgagggc
+      961 cttacggctc ccgtaggatg ctcctacatg tctggaacag ttactgacgt aataacgggt
+     1021 gagtccatca taagcgtcga cgctccctat gggtggacag tggagagaca gggcactgct
+     1081 aaggcccaga tctcagccat gcatcgaggc gtgcaatccg tatggccaac aactggcacg
+     1141 tacgtgaaat cacctttctc gatggtccat accttagacg cgttggcatt aatcaggcaa
+     1201 cggctctcaa gatagagccc tcaaccggag ttcgaagcat ggcttctaac tttactcagt
+     1261 tcgttctcgt cgacaatggc ggaactggcg acgtgactgt cgcaccaagc aacttcgcta
+     1321 acggggtcgc tgaatggatt agctctaact cccgctcgca ggcttacaaa gtaacctgca
+     1381 gcgttcgtca gagctctgcg cagaaccgca agtacaccat taaggtcgag gtgccgaaag
+     1441 tggcaactca gaccgtaggt ggcgtacagc ttcctgtagc cgcatggcgt tcgtacttaa
+     1501 atatggaatt gactattcct attttcgcaa cgaacgacga ttgcgcgctt attgttaagg
+     1561 cgatgcaagg tctcctgaaa gatggaaacc cgatcccctc agcaatcgca gcaaactccg
+     1621 gaatctacta atagattccg gccattccaa catgaggatt acccatgtcg aagacaacaa
+     1681 agaagttcaa ctctttatgt attgatcttc ctcgcgatct ttctctcgaa atttaccaat
+     1741 caattgcttc tgtcgctact ggaagcggtg atccgcacag tagagacttt acagcaattg
+     1801 cttacctaag ggacgagttg cttactaagc acccgtctct aggaaatggt aatgacgagg
+     1861 cgacccgccg ggctctagct atcgctaagc tccgggaggc gaatgaacgg tgtggccaga
+     1921 ttaacagaga aggtttctta cacgacaaat ccttgtcgtg ggatccggat gttttacaaa
+     1981 ccagcatccg tagccttatt ggcaaccttc tctctggcta tcgttcgtcg ttgtttgggc
+     2041 aatgcacgtt ctccaacggt gcctcaatgg ggcacaagtt gcaggatgca gcgccttaca
+     2101 agaagttcgc tgaacaagca accgttaccc cccgcgctct gagagcggca ctactggtcc
+     2161 gagaccagtg tgtgccgtgg atcagacacg cggtccgcta taacgagtca tataaattta
+     2221 ggctcgttgt agggaacgga gtgttcacag ttccgaagaa taataaaata gatcgggctg
+     2281 cctgtaagga gcccgatatg aatatgtacc tccagaaagg agttggcgcc tttataagac
+     2341 gtcgcctcaa gtctgtcggt atagacctga atgatcaaac gatcaaccag cgtctggctc
+     2401 agcagggtag cgtagatggc tcattagcta cgatagattt atcgtcggct tctgactcca
+     2461 tctccgatcg cctggtgtgg agtttcctcc cacctgagct atattcatat ctcgatcgta
+     2521 tccgctccca ctacgggatc gtagatggtg agacgatacg atgggaacta ttttccacaa
+     2581 tggggaatgg gtttactttt gaactagagt ccatgatatt ttgggcgata gtaaaagcta
+     2641 cccagatcca ttttggtaac gccggaacca taggcatcta cggggacgat attatatgtc
+     2701 ccagtgagat tgcaccccgt gtgctagagg cacttgccta ctacggtttt aaaccgaatc
+     2761 ttcgtaaaac gttcgtgtca gggctctttc gcgagagctg tggcgcgcac ttttaccgtg
+     2821 gtgtcgatgt caaaccgttt tacatcaaga aaccagttga caatctcttc tcccttatgc
+     2881 tgatcatgaa tcggcttagg gggtggggag ttgtcggagg tatgtcagat ccgcgccttt
+     2941 ataaggtttg ggtacgactg tccnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3001 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3061 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3121 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3181 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3241 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3301 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3361 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3421 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnn
+//
