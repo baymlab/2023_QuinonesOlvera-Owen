@@ -17,7 +17,7 @@ Code corresponing to the paper:
 - [Figure 4](#figure-4)
 - [Figure 5](#figure-5)
 
-- [How to reproduce this]()
+- [How to replicate these figures](#how-to-replicate-these-figures)
 
 ---
 
